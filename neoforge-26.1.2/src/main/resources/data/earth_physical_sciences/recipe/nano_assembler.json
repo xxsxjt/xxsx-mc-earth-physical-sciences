@@ -1,0 +1,22 @@
+{
+  "type": "earth_lore:gated",
+  "node": "earth_physical_sciences:fut/nanofabrication",
+  "recipe": {
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "ILI",
+      "CPC",
+      "ILI"
+    ],
+    "key": {
+      "I": "earth_physical_sciences:integrated_circuit",
+      "L": "earth_physical_sciences:laser_diode",
+      "C": "earth_physical_sciences:circuit_board",
+      "P": "earth_physical_sciences:photonic_core"
+    },
+    "result": {
+      "id": "earth_physical_sciences:nano_assembler",
+      "count": 1
+    }
+  }
+}

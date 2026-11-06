@@ -1,0 +1,17 @@
+{
+  "discipline": "earth_lore:ast",
+  "tier": 0,
+  "gate": "root",
+  "requires": [],
+  "item_requires": [],
+  "unlocks": [
+    {
+      "item": "earth_physical_sciences:star_chart"
+    }
+  ],
+  "literature": [],
+  "teachers": [],
+  "fail_codes": [],
+  "name_key": "lore.earth_physical_sciences.ast.astronomy_basics",
+  "desc_key": "lore.earth_physical_sciences.ast.astronomy_basics.desc"
+}

@@ -1,0 +1,43 @@
+{
+  "discipline": "earth_lore:ast",
+  "tier": 9,
+  "gate": "soft",
+  "requires": [
+    {
+      "all": "earth_physical_sciences:ast/satellites"
+    },
+    {
+      "all": "earth_physical_sciences:ast/orbital_mechanics"
+    }
+  ],
+  "item_requires": [],
+  "unlocks": [
+    {
+      "item": "earth_physical_sciences:space_probe"
+    }
+  ],
+  "literature": [
+    "notes"
+  ],
+  "teachers": [],
+  "fail_codes": [],
+  "name_key": "lore.earth_physical_sciences.ast.deep_space_exploration",
+  "desc_key": "lore.earth_physical_sciences.ast.deep_space_exploration.desc",
+  "research": {
+    "items": [
+      {
+        "ingredient": "earth_physical_sciences:satellite",
+        "count": 1
+      },
+      {
+        "ingredient": "earth_physical_sciences:radio_transceiver",
+        "count": 2
+      },
+      {
+        "ingredient": "earth_physical_sciences:high_density_cell",
+        "count": 2
+      }
+    ],
+    "ticks": 14400
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "earth_on_minecraft:fertilizer_blend",
+    "earth_on_minecraft:fertilizer_blend",
+    "earth_on_minecraft:sulfuric_acid"
+  ],
+  "result": {
+    "id": "earth_physical_sciences:dopant",
+    "count": 2
+  }
+}

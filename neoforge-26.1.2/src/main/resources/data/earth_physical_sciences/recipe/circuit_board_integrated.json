@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "CIC",
+    "IBI",
+    "CIC"
+  ],
+  "key": {
+    "C": "earth_on_minecraft:refined_copper",
+    "I": "earth_physical_sciences:integrated_circuit",
+    "B": "earth_on_minecraft:epoxy_resin"
+  },
+  "result": {
+    "id": "earth_physical_sciences:circuit_board",
+    "count": 2
+  }
+}

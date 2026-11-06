@@ -1,0 +1,21 @@
+{
+  "type": "earth_lore:gated",
+  "node": "earth_physical_sciences:fut/antimatter_containment",
+  "recipe": {
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "YSY",
+      "SVS",
+      "YSY"
+    ],
+    "key": {
+      "Y": "earth_physical_sciences:superconductor_coil",
+      "S": "earth_on_minecraft:stainless_steel",
+      "V": "earth_physical_sciences:vacuum_pump"
+    },
+    "result": {
+      "id": "earth_physical_sciences:penning_trap",
+      "count": 1
+    }
+  }
+}

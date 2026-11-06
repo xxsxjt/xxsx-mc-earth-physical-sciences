@@ -1,0 +1,21 @@
+{
+  "type": "earth_lore:gated",
+  "node": "earth_physical_sciences:fut/antimatter_energy",
+  "recipe": {
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "PCP",
+      "CTC",
+      "PCP"
+    ],
+    "key": {
+      "P": "earth_physical_sciences:plasma_containment",
+      "C": "earth_physical_sciences:superconducting_cable",
+      "T": "earth_physical_sciences:penning_trap"
+    },
+    "result": {
+      "id": "earth_physical_sciences:annihilation_reactor",
+      "count": 1
+    }
+  }
+}

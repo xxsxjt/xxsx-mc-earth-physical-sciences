@@ -1,0 +1,43 @@
+{
+  "discipline": "earth_lore:cmp",
+  "tier": 3,
+  "gate": "theory",
+  "requires": [
+    {
+      "all": "earth_physical_sciences:cmp/electronics_basics"
+    },
+    {
+      "all": "earth_on_minecraft:eng/electrical_basics"
+    }
+  ],
+  "item_requires": [],
+  "unlocks": [
+    {
+      "readout": "earth_physical_sciences:multimeter"
+    }
+  ],
+  "literature": [
+    "notes"
+  ],
+  "teachers": [],
+  "fail_codes": [],
+  "name_key": "lore.earth_physical_sciences.cmp.circuit_theory",
+  "desc_key": "lore.earth_physical_sciences.cmp.circuit_theory.desc",
+  "research": {
+    "items": [
+      {
+        "ingredient": "earth_on_minecraft:copper_power_cable",
+        "count": 4
+      },
+      {
+        "ingredient": "minecraft:redstone",
+        "count": 8
+      },
+      {
+        "ingredient": "minecraft:comparator",
+        "count": 2
+      }
+    ],
+    "ticks": 2400
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " C ",
+    "GRG",
+    " N "
+  ],
+  "key": {
+    "C": "earth_on_minecraft:refined_copper",
+    "G": "minecraft:glass_pane",
+    "R": "minecraft:redstone",
+    "N": "earth_on_minecraft:nickel"
+  },
+  "result": {
+    "id": "earth_physical_sciences:multimeter",
+    "count": 1
+  }
+}

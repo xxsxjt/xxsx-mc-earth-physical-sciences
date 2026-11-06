@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "earth_on_minecraft:hydrochloric_acid",
+    "earth_on_minecraft:nitric_acid"
+  ],
+  "result": {
+    "id": "earth_physical_sciences:etchant",
+    "count": 2
+  }
+}

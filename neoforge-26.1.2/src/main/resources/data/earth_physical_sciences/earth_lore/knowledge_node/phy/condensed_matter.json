@@ -1,0 +1,40 @@
+{
+  "discipline": "earth_lore:phy",
+  "tier": 6,
+  "gate": "theory",
+  "requires": [
+    {
+      "all": "earth_physical_sciences:phy/quantum_mechanics"
+    }
+  ],
+  "item_requires": [],
+  "unlocks": [
+    {
+      "readout": "earth_physical_sciences:xray_diffractometer"
+    }
+  ],
+  "literature": [
+    "notes"
+  ],
+  "teachers": [],
+  "fail_codes": [],
+  "name_key": "lore.earth_physical_sciences.phy.condensed_matter",
+  "desc_key": "lore.earth_physical_sciences.phy.condensed_matter.desc",
+  "research": {
+    "items": [
+      {
+        "ingredient": "earth_on_minecraft:gem_cut",
+        "count": 2
+      },
+      {
+        "ingredient": "earth_on_minecraft:refined_copper",
+        "count": 4
+      },
+      {
+        "ingredient": "earth_on_minecraft:salt",
+        "count": 4
+      }
+    ],
+    "ticks": 7200
+  }
+}

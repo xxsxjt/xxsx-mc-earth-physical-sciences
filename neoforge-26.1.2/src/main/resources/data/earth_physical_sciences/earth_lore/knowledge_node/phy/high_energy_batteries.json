@@ -1,0 +1,46 @@
+{
+  "discipline": "earth_lore:phy",
+  "tier": 5,
+  "gate": "soft",
+  "requires": [
+    {
+      "all": "earth_physical_sciences:phy/electromagnetism"
+    },
+    {
+      "all": "earth_on_minecraft:eng/energy_storage"
+    },
+    {
+      "all": "earth_on_minecraft:che/electrochemistry"
+    }
+  ],
+  "item_requires": [],
+  "unlocks": [
+    {
+      "item": "earth_physical_sciences:high_density_cell"
+    }
+  ],
+  "literature": [
+    "notes"
+  ],
+  "teachers": [],
+  "fail_codes": [],
+  "name_key": "lore.earth_physical_sciences.phy.high_energy_batteries",
+  "desc_key": "lore.earth_physical_sciences.phy.high_energy_batteries.desc",
+  "research": {
+    "items": [
+      {
+        "ingredient": "earth_on_minecraft:battery_box",
+        "count": 1
+      },
+      {
+        "ingredient": "earth_on_minecraft:nickel",
+        "count": 4
+      },
+      {
+        "ingredient": "earth_on_minecraft:cobalt",
+        "count": 2
+      }
+    ],
+    "ticks": 6000
+  }
+}

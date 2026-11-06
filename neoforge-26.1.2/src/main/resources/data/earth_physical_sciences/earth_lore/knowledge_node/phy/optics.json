@@ -1,0 +1,53 @@
+{
+  "discipline": "earth_lore:phy",
+  "tier": 4,
+  "gate": "soft",
+  "requires": [
+    {
+      "all": "earth_physical_sciences:phy/classical_mechanics"
+    },
+    {
+      "all": "earth_on_minecraft:mat/optical_glass"
+    }
+  ],
+  "item_requires": [
+    {
+      "made": "earth_on_minecraft:optical_glass"
+    }
+  ],
+  "unlocks": [
+    {
+      "block": "earth_physical_sciences:spectroscope"
+    },
+    {
+      "item": "earth_physical_sciences:spectroscope"
+    },
+    {
+      "item": "earth_physical_sciences:ground_lens"
+    }
+  ],
+  "literature": [
+    "notes"
+  ],
+  "teachers": [],
+  "fail_codes": [],
+  "name_key": "lore.earth_physical_sciences.phy.optics",
+  "desc_key": "lore.earth_physical_sciences.phy.optics.desc",
+  "research": {
+    "items": [
+      {
+        "ingredient": "earth_on_minecraft:optical_glass",
+        "count": 4
+      },
+      {
+        "ingredient": "minecraft:glass_pane",
+        "count": 4
+      },
+      {
+        "ingredient": "earth_on_minecraft:silver",
+        "count": 1
+      }
+    ],
+    "ticks": 4800
+  }
+}

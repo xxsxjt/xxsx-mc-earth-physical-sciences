@@ -1,0 +1,13 @@
+{
+  "discipline": "earth_lore:phy",
+  "tier": 0,
+  "gate": "root",
+  "requires": [],
+  "item_requires": [],
+  "unlocks": [],
+  "literature": [],
+  "teachers": [],
+  "fail_codes": [],
+  "name_key": "lore.earth_physical_sciences.phy.physics_basics",
+  "desc_key": "lore.earth_physical_sciences.phy.physics_basics.desc"
+}

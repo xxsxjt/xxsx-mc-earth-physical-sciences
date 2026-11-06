@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "AMA",
+    "A A",
+    "AMA"
+  ],
+  "key": {
+    "A": "earth_on_minecraft:aluminium_alloy",
+    "M": "earth_on_minecraft:mineral_wool"
+  },
+  "result": {
+    "id": "earth_physical_sciences:propellant_tank",
+    "count": 1
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "discipline": "earth_lore:phy",
+  "tier": 9,
+  "gate": "cap",
+  "requires": [
+    {
+      "all": "earth_physical_sciences:phy/acoustics"
+    },
+    {
+      "all": "earth_physical_sciences:phy/xray_physics"
+    },
+    {
+      "all": "earth_physical_sciences:phy/lasers"
+    },
+    {
+      "all": "earth_physical_sciences:phy/particle_acceleration"
+    },
+    {
+      "all": "earth_physical_sciences:phy/high_energy_batteries"
+    },
+    {
+      "all": "earth_physical_sciences:phy/controlled_fusion"
+    },
+    {
+      "all": "earth_physical_sciences:phy/precision_metrology"
+    }
+  ],
+  "item_requires": [],
+  "unlocks": [
+    {
+      "capstone": "PHY"
+    }
+  ],
+  "literature": [
+    "notes"
+  ],
+  "teachers": [],
+  "fail_codes": [],
+  "name_key": "lore.earth_physical_sciences.phy.physics_mastery",
+  "desc_key": "lore.earth_physical_sciences.phy.physics_mastery.desc",
+  "research": {
+    "items": [
+      {
+        "ingredient": "earth_physical_sciences:superconductor_coil",
+        "count": 2
+      },
+      {
+        "ingredient": "earth_physical_sciences:spectroscope",
+        "count": 1
+      },
+      {
+        "ingredient": "earth_physical_sciences:atomic_clock",
+        "count": 1
+      }
+    ],
+    "ticks": 14400
+  }
+}

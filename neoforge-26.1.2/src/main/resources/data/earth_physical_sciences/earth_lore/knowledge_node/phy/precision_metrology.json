@@ -1,0 +1,46 @@
+{
+  "discipline": "earth_lore:phy",
+  "tier": 6,
+  "gate": "soft",
+  "requires": [
+    {
+      "all": "earth_physical_sciences:phy/quantum_mechanics"
+    },
+    {
+      "all": "earth_on_minecraft:eng/measurement"
+    }
+  ],
+  "item_requires": [],
+  "unlocks": [
+    {
+      "block": "earth_physical_sciences:atomic_clock"
+    },
+    {
+      "item": "earth_physical_sciences:atomic_clock"
+    }
+  ],
+  "literature": [
+    "notes"
+  ],
+  "teachers": [],
+  "fail_codes": [],
+  "name_key": "lore.earth_physical_sciences.phy.precision_metrology",
+  "desc_key": "lore.earth_physical_sciences.phy.precision_metrology.desc",
+  "research": {
+    "items": [
+      {
+        "ingredient": "minecraft:clock",
+        "count": 4
+      },
+      {
+        "ingredient": "earth_on_minecraft:gold",
+        "count": 2
+      },
+      {
+        "ingredient": "earth_physical_sciences:rubidium_salt",
+        "count": 1
+      }
+    ],
+    "ticks": 7200
+  }
+}

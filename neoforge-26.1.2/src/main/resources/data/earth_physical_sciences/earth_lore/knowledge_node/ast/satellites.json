@@ -1,0 +1,52 @@
+{
+  "discipline": "earth_lore:ast",
+  "tier": 8,
+  "gate": "soft",
+  "requires": [
+    {
+      "all": "earth_physical_sciences:ast/launch_operations"
+    },
+    {
+      "all": "earth_physical_sciences:cmp/radio_communication"
+    },
+    {
+      "all": "earth_physical_sciences:phy/relativity"
+    }
+  ],
+  "item_requires": [],
+  "unlocks": [
+    {
+      "item": "earth_physical_sciences:satellite"
+    },
+    {
+      "block": "earth_physical_sciences:ground_station"
+    },
+    {
+      "item": "earth_physical_sciences:ground_station"
+    }
+  ],
+  "literature": [
+    "notes"
+  ],
+  "teachers": [],
+  "fail_codes": [],
+  "name_key": "lore.earth_physical_sciences.ast.satellites",
+  "desc_key": "lore.earth_physical_sciences.ast.satellites.desc",
+  "research": {
+    "items": [
+      {
+        "ingredient": "earth_physical_sciences:radio_transceiver",
+        "count": 1
+      },
+      {
+        "ingredient": "earth_physical_sciences:photovoltaic_panel",
+        "count": 2
+      },
+      {
+        "ingredient": "earth_physical_sciences:vacuum_frame",
+        "count": 4
+      }
+    ],
+    "ticks": 12000
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "earth_on_minecraft:heavy_copper_power_cable",
+    "earth_on_minecraft:heavy_copper_power_cable",
+    "earth_on_minecraft:heavy_copper_power_cable",
+    "earth_on_minecraft:heavy_copper_power_cable",
+    "earth_on_minecraft:grid_switchgear"
+  ],
+  "result": {
+    "id": "earth_physical_sciences:power_bus",
+    "count": 1
+  }
+}

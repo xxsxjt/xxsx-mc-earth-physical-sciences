@@ -1,0 +1,42 @@
+{
+  "discipline": "earth_lore:fut",
+  "tier": 9,
+  "gate": "theory",
+  "requires": [
+    {
+      "all": "earth_physical_sciences:phy/particle_acceleration"
+    },
+    {
+      "all": "earth_physical_sciences:phy/relativity"
+    },
+    {
+      "all": "earth_physical_sciences:ast/orbital_mechanics"
+    }
+  ],
+  "item_requires": [],
+  "unlocks": [],
+  "literature": [
+    "notes"
+  ],
+  "teachers": [],
+  "fail_codes": [],
+  "name_key": "lore.earth_physical_sciences.fut.axiom_primer",
+  "desc_key": "lore.earth_physical_sciences.fut.axiom_primer.desc",
+  "research": {
+    "items": [
+      {
+        "ingredient": "earth_physical_sciences:atomic_clock",
+        "count": 1
+      },
+      {
+        "ingredient": "earth_physical_sciences:superconductor_coil",
+        "count": 1
+      },
+      {
+        "ingredient": "minecraft:book",
+        "count": 4
+      }
+    ],
+    "ticks": 14400
+  }
+}

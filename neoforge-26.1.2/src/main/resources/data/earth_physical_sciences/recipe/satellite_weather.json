@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "earth_physical_sciences:satellite",
+    "earth_on_minecraft:machine_vision_camera"
+  ],
+  "result": {
+    "id": "earth_physical_sciences:satellite",
+    "count": 1
+  }
+}

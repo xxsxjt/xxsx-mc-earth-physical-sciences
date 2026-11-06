@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PFP",
+    "RCR",
+    "PFP"
+  ],
+  "key": {
+    "P": "earth_physical_sciences:photovoltaic_panel",
+    "F": "earth_physical_sciences:vacuum_frame",
+    "R": "earth_physical_sciences:radio_transceiver",
+    "C": "earth_physical_sciences:circuit_board"
+  },
+  "result": {
+    "id": "earth_physical_sciences:satellite",
+    "count": 1
+  }
+}

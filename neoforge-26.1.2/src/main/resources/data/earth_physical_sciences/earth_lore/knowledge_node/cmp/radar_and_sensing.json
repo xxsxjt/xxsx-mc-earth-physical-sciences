@@ -1,0 +1,46 @@
+{
+  "discipline": "earth_lore:cmp",
+  "tier": 7,
+  "gate": "soft",
+  "requires": [
+    {
+      "all": "earth_physical_sciences:cmp/radio_communication"
+    },
+    {
+      "all": "earth_on_minecraft:eng/control_basics"
+    }
+  ],
+  "item_requires": [],
+  "unlocks": [
+    {
+      "block": "earth_physical_sciences:radar_station"
+    },
+    {
+      "item": "earth_physical_sciences:radar_station"
+    }
+  ],
+  "literature": [
+    "notes"
+  ],
+  "teachers": [],
+  "fail_codes": [],
+  "name_key": "lore.earth_physical_sciences.cmp.radar_and_sensing",
+  "desc_key": "lore.earth_physical_sciences.cmp.radar_and_sensing.desc",
+  "research": {
+    "items": [
+      {
+        "ingredient": "earth_physical_sciences:vacuum_tube",
+        "count": 8
+      },
+      {
+        "ingredient": "earth_on_minecraft:industrial_sensor",
+        "count": 2
+      },
+      {
+        "ingredient": "earth_on_minecraft:steel",
+        "count": 4
+      }
+    ],
+    "ticks": 9600
+  }
+}

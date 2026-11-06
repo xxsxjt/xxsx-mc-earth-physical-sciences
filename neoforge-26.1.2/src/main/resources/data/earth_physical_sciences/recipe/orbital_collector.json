@@ -1,0 +1,21 @@
+{
+  "type": "earth_lore:gated",
+  "node": "earth_physical_sciences:fut/megastructures",
+  "recipe": {
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "PPP",
+      "MSM",
+      "PPP"
+    ],
+    "key": {
+      "P": "earth_physical_sciences:photovoltaic_panel",
+      "M": "earth_physical_sciences:metamaterial",
+      "S": "earth_physical_sciences:stellar_alloy"
+    },
+    "result": {
+      "id": "earth_physical_sciences:orbital_collector",
+      "count": 1
+    }
+  }
+}

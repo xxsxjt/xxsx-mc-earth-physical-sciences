@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "CAC",
+    "VRV",
+    "SSS"
+  ],
+  "key": {
+    "C": "earth_on_minecraft:copper_power_cable",
+    "A": "minecraft:lightning_rod",
+    "V": "earth_physical_sciences:vacuum_tube",
+    "R": "minecraft:redstone",
+    "S": "earth_on_minecraft:steel"
+  },
+  "result": {
+    "id": "earth_physical_sciences:radio_transceiver",
+    "count": 1
+  }
+}

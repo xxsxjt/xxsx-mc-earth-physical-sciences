@@ -1,0 +1,46 @@
+{
+  "discipline": "earth_lore:fut",
+  "tier": 13,
+  "gate": "cap",
+  "requires": [
+    {
+      "all": "earth_physical_sciences:fut/warp_drive"
+    },
+    {
+      "all": "earth_physical_sciences:fut/megastructures"
+    },
+    {
+      "all": "earth_physical_sciences:fut/machine_society"
+    }
+  ],
+  "item_requires": [],
+  "unlocks": [
+    {
+      "capstone": "FUT"
+    }
+  ],
+  "literature": [
+    "notes"
+  ],
+  "teachers": [],
+  "fail_codes": [],
+  "name_key": "lore.earth_physical_sciences.fut.future_mastery",
+  "desc_key": "lore.earth_physical_sciences.fut.future_mastery.desc",
+  "research": {
+    "items": [
+      {
+        "ingredient": "earth_physical_sciences:metamaterial",
+        "count": 4
+      },
+      {
+        "ingredient": "earth_physical_sciences:stellar_alloy",
+        "count": 4
+      },
+      {
+        "ingredient": "earth_physical_sciences:antimatter_cell",
+        "count": 1
+      }
+    ],
+    "ticks": 24000
+  }
+}

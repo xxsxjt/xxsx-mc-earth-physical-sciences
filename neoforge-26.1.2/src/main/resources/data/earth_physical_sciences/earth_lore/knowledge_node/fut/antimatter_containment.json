@@ -1,0 +1,58 @@
+{
+  "discipline": "earth_lore:fut",
+  "tier": 10,
+  "gate": "hard",
+  "requires": [
+    {
+      "all": "earth_physical_sciences:fut/axiom_primer"
+    },
+    {
+      "all": "earth_physical_sciences:phy/superconductivity"
+    },
+    {
+      "all": "earth_physical_sciences:phy/particle_acceleration"
+    }
+  ],
+  "item_requires": [],
+  "unlocks": [
+    {
+      "block": "earth_physical_sciences:penning_trap"
+    },
+    {
+      "item": "earth_physical_sciences:penning_trap"
+    },
+    {
+      "recipe": "earth_physical_sciences:penning_trap"
+    },
+    {
+      "item": "earth_physical_sciences:antimatter_cell"
+    },
+    {
+      "recipe": "earth_physical_sciences:antimatter_cell"
+    }
+  ],
+  "literature": [
+    "notes"
+  ],
+  "teachers": [],
+  "fail_codes": [],
+  "name_key": "lore.earth_physical_sciences.fut.antimatter_containment",
+  "desc_key": "lore.earth_physical_sciences.fut.antimatter_containment.desc",
+  "research": {
+    "items": [
+      {
+        "ingredient": "earth_physical_sciences:superconductor_coil",
+        "count": 4
+      },
+      {
+        "ingredient": "earth_physical_sciences:liquid_helium",
+        "count": 4
+      },
+      {
+        "ingredient": "earth_physical_sciences:electromagnet",
+        "count": 4
+      }
+    ],
+    "ticks": 16800
+  }
+}

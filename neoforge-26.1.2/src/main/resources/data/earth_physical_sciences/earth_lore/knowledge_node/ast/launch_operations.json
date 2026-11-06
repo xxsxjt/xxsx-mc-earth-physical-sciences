@@ -1,0 +1,70 @@
+{
+  "discipline": "earth_lore:ast",
+  "tier": 7,
+  "gate": "hard",
+  "requires": [
+    {
+      "all": "earth_physical_sciences:ast/rocket_propulsion"
+    },
+    {
+      "all": "earth_physical_sciences:ast/thermal_protection"
+    },
+    {
+      "all": "earth_physical_sciences:ast/spacecraft_structures"
+    }
+  ],
+  "item_requires": [
+    {
+      "cond": "sky"
+    }
+  ],
+  "unlocks": [
+    {
+      "block": "earth_physical_sciences:launch_pad"
+    },
+    {
+      "item": "earth_physical_sciences:launch_pad"
+    },
+    {
+      "recipe": "earth_physical_sciences:launch_pad"
+    },
+    {
+      "block": "earth_physical_sciences:crew_capsule"
+    },
+    {
+      "item": "earth_physical_sciences:crew_capsule"
+    },
+    {
+      "recipe": "earth_physical_sciences:crew_capsule"
+    },
+    {
+      "entity": "earth_physical_sciences:launch_vehicle"
+    }
+  ],
+  "literature": [
+    "notes"
+  ],
+  "teachers": [],
+  "fail_codes": [
+    "sky_blocked"
+  ],
+  "name_key": "lore.earth_physical_sciences.ast.launch_operations",
+  "desc_key": "lore.earth_physical_sciences.ast.launch_operations.desc",
+  "research": {
+    "items": [
+      {
+        "ingredient": "earth_physical_sciences:rocket_engine",
+        "count": 1
+      },
+      {
+        "ingredient": "earth_physical_sciences:propellant_tank",
+        "count": 2
+      },
+      {
+        "ingredient": "earth_physical_sciences:heat_shield_tile",
+        "count": 4
+      }
+    ],
+    "ticks": 9600
+  }
+}

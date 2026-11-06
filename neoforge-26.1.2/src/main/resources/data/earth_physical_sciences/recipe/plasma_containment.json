@@ -1,0 +1,20 @@
+{
+  "type": "earth_lore:gated",
+  "node": "earth_physical_sciences:phy/controlled_fusion",
+  "recipe": {
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "SLS",
+      "L L",
+      "SLS"
+    ],
+    "key": {
+      "S": "earth_on_minecraft:stainless_steel",
+      "L": "earth_on_minecraft:lead"
+    },
+    "result": {
+      "id": "earth_physical_sciences:plasma_containment",
+      "count": 4
+    }
+  }
+}

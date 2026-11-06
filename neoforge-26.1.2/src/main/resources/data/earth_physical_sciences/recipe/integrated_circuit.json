@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "earth_physical_sciences:die",
+    "earth_physical_sciences:die",
+    "earth_on_minecraft:ceramic_substrate",
+    "earth_on_minecraft:gold"
+  ],
+  "result": {
+    "id": "earth_physical_sciences:integrated_circuit",
+    "count": 2
+  }
+}

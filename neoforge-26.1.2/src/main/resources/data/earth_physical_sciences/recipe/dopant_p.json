@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "earth_on_minecraft:borate_mineral_dust",
+    "earth_on_minecraft:hydrochloric_acid"
+  ],
+  "result": {
+    "id": "earth_physical_sciences:dopant",
+    "count": 2
+  }
+}

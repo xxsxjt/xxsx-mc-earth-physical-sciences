@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "earth_physical_sciences:physicist",
+    "earth_physical_sciences:electronics_engineer",
+    "earth_physical_sciences:astronomer"
+  ]
+}

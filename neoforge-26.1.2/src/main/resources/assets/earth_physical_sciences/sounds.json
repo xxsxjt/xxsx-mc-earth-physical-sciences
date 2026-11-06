@@ -1,0 +1,282 @@
+{
+  "spectroscope_hum": {
+    "subtitle": "subtitles.earth_physical_sciences.spectroscope_hum",
+    "sounds": [
+      {
+        "name": "minecraft:block.beacon.ambient",
+        "type": "event",
+        "volume": 0.3
+      }
+    ]
+  },
+  "echo_sounder_ping": {
+    "subtitle": "subtitles.earth_physical_sciences.echo_sounder_ping",
+    "sounds": [
+      {
+        "name": "minecraft:block.beacon.ambient",
+        "type": "event",
+        "volume": 0.3
+      }
+    ]
+  },
+  "multimeter_beep": {
+    "subtitle": "subtitles.earth_physical_sciences.multimeter_beep",
+    "sounds": [
+      {
+        "name": "minecraft:block.beacon.ambient",
+        "type": "event",
+        "volume": 0.3
+      }
+    ]
+  },
+  "vacuum_pump_run": {
+    "subtitle": "subtitles.earth_physical_sciences.vacuum_pump_run",
+    "sounds": [
+      {
+        "name": "minecraft:block.beacon.ambient",
+        "type": "event",
+        "volume": 0.3
+      }
+    ]
+  },
+  "vacuum_furnace_roar": {
+    "subtitle": "subtitles.earth_physical_sciences.vacuum_furnace_roar",
+    "sounds": [
+      {
+        "name": "minecraft:block.beacon.ambient",
+        "type": "event",
+        "volume": 0.3
+      }
+    ]
+  },
+  "xray_diffractometer_scan": {
+    "subtitle": "subtitles.earth_physical_sciences.xray_diffractometer_scan",
+    "sounds": [
+      {
+        "name": "minecraft:block.beacon.ambient",
+        "type": "event",
+        "volume": 0.3
+      }
+    ]
+  },
+  "geiger_counter_click": {
+    "subtitle": "subtitles.earth_physical_sciences.geiger_counter_click",
+    "sounds": [
+      {
+        "name": "minecraft:block.beacon.ambient",
+        "type": "event",
+        "volume": 0.3
+      }
+    ]
+  },
+  "isotope_separator_whir": {
+    "subtitle": "subtitles.earth_physical_sciences.isotope_separator_whir",
+    "sounds": [
+      {
+        "name": "minecraft:block.beacon.ambient",
+        "type": "event",
+        "volume": 0.3
+      }
+    ]
+  },
+  "cryocooler_hiss": {
+    "subtitle": "subtitles.earth_physical_sciences.cryocooler_hiss",
+    "sounds": [
+      {
+        "name": "minecraft:block.beacon.ambient",
+        "type": "event",
+        "volume": 0.3
+      }
+    ]
+  },
+  "coil_quench": {
+    "subtitle": "subtitles.earth_physical_sciences.coil_quench",
+    "sounds": [
+      {
+        "name": "minecraft:block.beacon.ambient",
+        "type": "event",
+        "volume": 0.3
+      }
+    ]
+  },
+  "laser_cutter_zap": {
+    "subtitle": "subtitles.earth_physical_sciences.laser_cutter_zap",
+    "sounds": [
+      {
+        "name": "minecraft:block.beacon.ambient",
+        "type": "event",
+        "volume": 0.3
+      }
+    ]
+  },
+  "cyclotron_hum": {
+    "subtitle": "subtitles.earth_physical_sciences.cyclotron_hum",
+    "sounds": [
+      {
+        "name": "minecraft:block.beacon.ambient",
+        "type": "event",
+        "volume": 0.3
+      }
+    ]
+  },
+  "fusion_ignite": {
+    "subtitle": "subtitles.earth_physical_sciences.fusion_ignite",
+    "sounds": [
+      {
+        "name": "minecraft:block.beacon.ambient",
+        "type": "event",
+        "volume": 0.3
+      }
+    ]
+  },
+  "fusion_burn": {
+    "subtitle": "subtitles.earth_physical_sciences.fusion_burn",
+    "sounds": [
+      {
+        "name": "minecraft:block.beacon.ambient",
+        "type": "event",
+        "volume": 0.3
+      }
+    ]
+  },
+  "atomic_clock_tick": {
+    "subtitle": "subtitles.earth_physical_sciences.atomic_clock_tick",
+    "sounds": [
+      {
+        "name": "minecraft:block.beacon.ambient",
+        "type": "event",
+        "volume": 0.3
+      }
+    ]
+  },
+  "radio_static": {
+    "subtitle": "subtitles.earth_physical_sciences.radio_static",
+    "sounds": [
+      {
+        "name": "minecraft:block.beacon.ambient",
+        "type": "event",
+        "volume": 0.3
+      }
+    ]
+  },
+  "wafer_fab_step": {
+    "subtitle": "subtitles.earth_physical_sciences.wafer_fab_step",
+    "sounds": [
+      {
+        "name": "minecraft:block.beacon.ambient",
+        "type": "event",
+        "volume": 0.3
+      }
+    ]
+  },
+  "mainframe_hum": {
+    "subtitle": "subtitles.earth_physical_sciences.mainframe_hum",
+    "sounds": [
+      {
+        "name": "minecraft:block.beacon.ambient",
+        "type": "event",
+        "volume": 0.3
+      }
+    ]
+  },
+  "radar_sweep": {
+    "subtitle": "subtitles.earth_physical_sciences.radar_sweep",
+    "sounds": [
+      {
+        "name": "minecraft:block.beacon.ambient",
+        "type": "event",
+        "volume": 0.3
+      }
+    ]
+  },
+  "telescope_turn": {
+    "subtitle": "subtitles.earth_physical_sciences.telescope_turn",
+    "sounds": [
+      {
+        "name": "minecraft:block.beacon.ambient",
+        "type": "event",
+        "volume": 0.3
+      }
+    ]
+  },
+  "rocket_ignition": {
+    "subtitle": "subtitles.earth_physical_sciences.rocket_ignition",
+    "sounds": [
+      {
+        "name": "minecraft:block.beacon.ambient",
+        "type": "event",
+        "volume": 0.3
+      }
+    ]
+  },
+  "rocket_roar": {
+    "subtitle": "subtitles.earth_physical_sciences.rocket_roar",
+    "sounds": [
+      {
+        "name": "minecraft:block.beacon.ambient",
+        "type": "event",
+        "volume": 0.3
+      }
+    ]
+  },
+  "capsule_reentry": {
+    "subtitle": "subtitles.earth_physical_sciences.capsule_reentry",
+    "sounds": [
+      {
+        "name": "minecraft:block.beacon.ambient",
+        "type": "event",
+        "volume": 0.3
+      }
+    ]
+  },
+  "nano_assembler_hum": {
+    "subtitle": "subtitles.earth_physical_sciences.nano_assembler_hum",
+    "sounds": [
+      {
+        "name": "minecraft:block.beacon.ambient",
+        "type": "event",
+        "volume": 0.3
+      }
+    ]
+  },
+  "penning_trap_hum": {
+    "subtitle": "subtitles.earth_physical_sciences.penning_trap_hum",
+    "sounds": [
+      {
+        "name": "minecraft:block.beacon.ambient",
+        "type": "event",
+        "volume": 0.3
+      }
+    ]
+  },
+  "annihilation_hum": {
+    "subtitle": "subtitles.earth_physical_sciences.annihilation_hum",
+    "sounds": [
+      {
+        "name": "minecraft:block.beacon.ambient",
+        "type": "event",
+        "volume": 0.3
+      }
+    ]
+  },
+  "warp_charge": {
+    "subtitle": "subtitles.earth_physical_sciences.warp_charge",
+    "sounds": [
+      {
+        "name": "minecraft:block.beacon.ambient",
+        "type": "event",
+        "volume": 0.3
+      }
+    ]
+  },
+  "warp_jump": {
+    "subtitle": "subtitles.earth_physical_sciences.warp_jump",
+    "sounds": [
+      {
+        "name": "minecraft:block.beacon.ambient",
+        "type": "event",
+        "volume": 0.3
+      }
+    ]
+  }
+}

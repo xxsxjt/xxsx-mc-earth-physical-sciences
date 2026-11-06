@@ -1,0 +1,21 @@
+{
+  "type": "earth_lore:gated",
+  "node": "earth_physical_sciences:fut/megastructures",
+  "recipe": {
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "CAC",
+      "ASA",
+      "CAC"
+    ],
+    "key": {
+      "C": "earth_on_minecraft:refined_copper",
+      "A": "earth_on_minecraft:aluminium",
+      "S": "earth_physical_sciences:stellar_alloy"
+    },
+    "result": {
+      "id": "earth_physical_sciences:microwave_receiver",
+      "count": 5
+    }
+  }
+}

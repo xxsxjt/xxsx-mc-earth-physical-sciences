@@ -1,0 +1,23 @@
+{
+  "type": "earth_lore:gated",
+  "node": "earth_physical_sciences:fut/machine_society",
+  "recipe": {
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "SRS",
+      "AMA",
+      "SCS"
+    ],
+    "key": {
+      "S": "earth_physical_sciences:stellar_alloy",
+      "R": "earth_on_minecraft:robotic_arm",
+      "A": "earth_on_minecraft:actuator_module",
+      "M": "earth_physical_sciences:mainframe",
+      "C": "earth_physical_sciences:superconducting_cable"
+    },
+    "result": {
+      "id": "earth_physical_sciences:android_assembly_bay",
+      "count": 1
+    }
+  }
+}

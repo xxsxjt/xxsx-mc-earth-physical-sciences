@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "earth_physical_sciences:satellite",
+    "earth_physical_sciences:atomic_clock"
+  ],
+  "result": {
+    "id": "earth_physical_sciences:satellite",
+    "count": 1
+  }
+}

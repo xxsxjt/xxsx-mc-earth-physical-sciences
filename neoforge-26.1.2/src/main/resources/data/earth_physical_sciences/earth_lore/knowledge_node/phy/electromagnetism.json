@@ -1,0 +1,53 @@
+{
+  "discipline": "earth_lore:phy",
+  "tier": 3,
+  "gate": "soft",
+  "requires": [
+    {
+      "all": "earth_physical_sciences:phy/classical_mechanics"
+    },
+    {
+      "all": "earth_on_minecraft:eng/electrical_basics"
+    }
+  ],
+  "item_requires": [
+    {
+      "made": "earth_on_minecraft:copper_power_cable"
+    }
+  ],
+  "unlocks": [
+    {
+      "item": "earth_physical_sciences:multimeter"
+    },
+    {
+      "block": "earth_physical_sciences:electromagnet"
+    },
+    {
+      "item": "earth_physical_sciences:electromagnet"
+    }
+  ],
+  "literature": [
+    "notes"
+  ],
+  "teachers": [],
+  "fail_codes": [],
+  "name_key": "lore.earth_physical_sciences.phy.electromagnetism",
+  "desc_key": "lore.earth_physical_sciences.phy.electromagnetism.desc",
+  "research": {
+    "items": [
+      {
+        "ingredient": "earth_on_minecraft:refined_copper",
+        "count": 4
+      },
+      {
+        "ingredient": "minecraft:compass",
+        "count": 1
+      },
+      {
+        "ingredient": "minecraft:redstone",
+        "count": 8
+      }
+    ],
+    "ticks": 2400
+  }
+}

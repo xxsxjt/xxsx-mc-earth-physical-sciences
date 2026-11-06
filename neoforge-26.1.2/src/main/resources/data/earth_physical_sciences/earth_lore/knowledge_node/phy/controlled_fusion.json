@@ -1,0 +1,61 @@
+{
+  "discipline": "earth_lore:phy",
+  "tier": 8,
+  "gate": "hard",
+  "requires": [
+    {
+      "all": "earth_physical_sciences:phy/superconductivity"
+    },
+    {
+      "all": "earth_physical_sciences:phy/plasma_physics"
+    },
+    {
+      "all": "earth_on_minecraft:eng/nuclear_engineering"
+    }
+  ],
+  "item_requires": [],
+  "unlocks": [
+    {
+      "block": "earth_physical_sciences:fusion_igniter"
+    },
+    {
+      "item": "earth_physical_sciences:fusion_igniter"
+    },
+    {
+      "recipe": "earth_physical_sciences:fusion_igniter"
+    },
+    {
+      "block": "earth_physical_sciences:plasma_containment"
+    },
+    {
+      "item": "earth_physical_sciences:plasma_containment"
+    },
+    {
+      "recipe": "earth_physical_sciences:plasma_containment"
+    }
+  ],
+  "literature": [
+    "notes"
+  ],
+  "teachers": [],
+  "fail_codes": [],
+  "name_key": "lore.earth_physical_sciences.phy.controlled_fusion",
+  "desc_key": "lore.earth_physical_sciences.phy.controlled_fusion.desc",
+  "research": {
+    "items": [
+      {
+        "ingredient": "earth_physical_sciences:superconductor_coil",
+        "count": 4
+      },
+      {
+        "ingredient": "earth_physical_sciences:deuterium",
+        "count": 4
+      },
+      {
+        "ingredient": "earth_physical_sciences:tritium",
+        "count": 1
+      }
+    ],
+    "ticks": 12000
+  }
+}

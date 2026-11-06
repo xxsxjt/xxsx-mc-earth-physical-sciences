@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " V ",
+    "SAS",
+    "SRS"
+  ],
+  "key": {
+    "V": "earth_physical_sciences:vacuum_tube",
+    "A": "earth_physical_sciences:argon",
+    "S": "earth_on_minecraft:steel",
+    "R": "minecraft:redstone"
+  },
+  "result": {
+    "id": "earth_physical_sciences:geiger_counter",
+    "count": 1
+  }
+}

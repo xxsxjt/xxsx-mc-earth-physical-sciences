@@ -1,0 +1,52 @@
+{
+  "discipline": "earth_lore:ast",
+  "tier": 6,
+  "gate": "theory",
+  "requires": [
+    {
+      "all": "earth_physical_sciences:ast/telescopic_astronomy"
+    },
+    {
+      "all": "earth_physical_sciences:phy/quantum_mechanics"
+    }
+  ],
+  "item_requires": [
+    {
+      "held": "earth_physical_sciences:spectroscope"
+    },
+    {
+      "cond": "night"
+    },
+    {
+      "cond": "sky"
+    }
+  ],
+  "unlocks": [
+    {
+      "readout": "earth_physical_sciences:reflecting_telescope"
+    }
+  ],
+  "literature": [
+    "notes"
+  ],
+  "teachers": [],
+  "fail_codes": [
+    "needs_night",
+    "sky_blocked"
+  ],
+  "name_key": "lore.earth_physical_sciences.ast.astrophysics",
+  "desc_key": "lore.earth_physical_sciences.ast.astrophysics.desc",
+  "research": {
+    "items": [
+      {
+        "ingredient": "earth_physical_sciences:observation_plate",
+        "count": 4
+      },
+      {
+        "ingredient": "earth_physical_sciences:ground_lens",
+        "count": 2
+      }
+    ],
+    "ticks": 7200
+  }
+}

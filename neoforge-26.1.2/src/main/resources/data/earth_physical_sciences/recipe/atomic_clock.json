@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "GRG",
+    "CVC",
+    "SSS"
+  ],
+  "key": {
+    "G": "earth_on_minecraft:gold",
+    "R": "earth_physical_sciences:rubidium_salt",
+    "C": "earth_on_minecraft:copper_power_cable",
+    "V": "earth_physical_sciences:vacuum_tube",
+    "S": "earth_on_minecraft:steel"
+  },
+  "result": {
+    "id": "earth_physical_sciences:atomic_clock",
+    "count": 1
+  }
+}

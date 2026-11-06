@@ -1,0 +1,21 @@
+{
+  "type": "earth_lore:gated",
+  "node": "earth_physical_sciences:cmp/artificial_intelligence",
+  "recipe": {
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "PBP",
+      "PQP",
+      "PBP"
+    ],
+    "key": {
+      "P": "earth_on_minecraft:plc_controller",
+      "B": "earth_on_minecraft:automation_bus",
+      "Q": "earth_physical_sciences:quantum_core"
+    },
+    "result": {
+      "id": "earth_physical_sciences:ai_controller",
+      "count": 1
+    }
+  }
+}

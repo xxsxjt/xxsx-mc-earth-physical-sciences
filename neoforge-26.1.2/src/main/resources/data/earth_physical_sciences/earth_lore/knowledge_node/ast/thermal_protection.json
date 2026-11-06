@@ -1,0 +1,46 @@
+{
+  "discipline": "earth_lore:ast",
+  "tier": 6,
+  "gate": "soft",
+  "requires": [
+    {
+      "all": "earth_on_minecraft:mat/alloy_steels"
+    },
+    {
+      "all": "earth_on_minecraft:mat/ceramics"
+    },
+    {
+      "all": "earth_physical_sciences:phy/vacuum_technology"
+    }
+  ],
+  "item_requires": [],
+  "unlocks": [
+    {
+      "item": "earth_physical_sciences:heat_shield_tile"
+    }
+  ],
+  "literature": [
+    "notes"
+  ],
+  "teachers": [],
+  "fail_codes": [],
+  "name_key": "lore.earth_physical_sciences.ast.thermal_protection",
+  "desc_key": "lore.earth_physical_sciences.ast.thermal_protection.desc",
+  "research": {
+    "items": [
+      {
+        "ingredient": "earth_on_minecraft:ceramic_substrate",
+        "count": 4
+      },
+      {
+        "ingredient": "earth_physical_sciences:carbon_fiber",
+        "count": 2
+      },
+      {
+        "ingredient": "earth_on_minecraft:mineral_wool",
+        "count": 4
+      }
+    ],
+    "ticks": 7200
+  }
+}

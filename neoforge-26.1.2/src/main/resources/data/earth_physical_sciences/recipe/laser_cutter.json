@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SLS",
+    "GRG",
+    "SCS"
+  ],
+  "key": {
+    "S": "earth_on_minecraft:steel",
+    "L": "earth_physical_sciences:ground_lens",
+    "G": "earth_on_minecraft:gem_cut",
+    "R": "minecraft:redstone_block",
+    "C": "earth_on_minecraft:copper_power_cable"
+  },
+  "result": {
+    "id": "earth_physical_sciences:laser_cutter",
+    "count": 1
+  }
+}

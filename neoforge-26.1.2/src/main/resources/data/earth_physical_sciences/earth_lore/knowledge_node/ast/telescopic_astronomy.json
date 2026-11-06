@@ -1,0 +1,46 @@
+{
+  "discipline": "earth_lore:ast",
+  "tier": 5,
+  "gate": "soft",
+  "requires": [
+    {
+      "all": "earth_physical_sciences:ast/positional_astronomy"
+    },
+    {
+      "all": "earth_physical_sciences:phy/optics"
+    }
+  ],
+  "item_requires": [],
+  "unlocks": [
+    {
+      "block": "earth_physical_sciences:reflecting_telescope"
+    },
+    {
+      "item": "earth_physical_sciences:reflecting_telescope"
+    }
+  ],
+  "literature": [
+    "notes"
+  ],
+  "teachers": [],
+  "fail_codes": [],
+  "name_key": "lore.earth_physical_sciences.ast.telescopic_astronomy",
+  "desc_key": "lore.earth_physical_sciences.ast.telescopic_astronomy.desc",
+  "research": {
+    "items": [
+      {
+        "ingredient": "earth_physical_sciences:ground_lens",
+        "count": 2
+      },
+      {
+        "ingredient": "earth_on_minecraft:silver",
+        "count": 2
+      },
+      {
+        "ingredient": "earth_on_minecraft:brass",
+        "count": 4
+      }
+    ],
+    "ticks": 6000
+  }
+}

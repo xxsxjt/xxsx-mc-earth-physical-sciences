@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "CTC",
+    "TBT",
+    "CTC"
+  ],
+  "key": {
+    "C": "earth_on_minecraft:refined_copper",
+    "T": "earth_physical_sciences:transistor",
+    "B": "earth_on_minecraft:epoxy_resin"
+  },
+  "result": {
+    "id": "earth_physical_sciences:circuit_board",
+    "count": 2
+  }
+}

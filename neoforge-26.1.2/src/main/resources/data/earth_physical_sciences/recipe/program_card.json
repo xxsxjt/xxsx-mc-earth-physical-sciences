@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " P ",
+    "PCP",
+    " R "
+  ],
+  "key": {
+    "P": "minecraft:paper",
+    "C": "earth_physical_sciences:circuit_board",
+    "R": "minecraft:redstone"
+  },
+  "result": {
+    "id": "earth_physical_sciences:program_card",
+    "count": 1
+  }
+}

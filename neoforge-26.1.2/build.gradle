@@ -1,0 +1,58 @@
+plugins {
+    id 'java-library'
+    id 'net.neoforged.moddev' version '2.0.148'
+}
+
+version = '0.1.0'
+group = 'com.xxsx.earthphysicalsciences'
+
+repositories {
+    mavenLocal()
+    mavenCentral()
+}
+
+base {
+    archivesName = 'earth-physical-sciences-neoforge-26.1.2'
+}
+
+java.toolchain.languageVersion = JavaLanguageVersion.of(25)
+
+neoForge {
+    version = '26.1.2.124'
+
+    runs {
+        client {
+            client()
+        }
+        server {
+            server()
+        }
+    }
+
+    mods {
+        earth_physical_sciences {
+            sourceSet(sourceSets.main)
+        }
+    }
+}
+
+dependencies {
+    implementation files('../../earth_lore/neoforge-26.1.2/build/libs/earth-lore-neoforge-26.1.2-0.1.0.jar')
+    implementation files('../../earth_on_minecraft/neoforge-26.2/build/libs/earth-on-minecraft-neoforge-26.1.2-0.2.0.jar')
+    testImplementation 'org.junit.jupiter:junit-jupiter:5.10.2'
+    testRuntimeOnly 'org.junit.platform:junit-platform-launcher:1.10.2'
+}
+
+configurations {
+    testCompileClasspath.extendsFrom compileClasspath
+    testRuntimeClasspath.extendsFrom runtimeClasspath
+}
+
+test {
+    useJUnitPlatform()
+}
+
+tasks.withType(JavaCompile).configureEach {
+    options.encoding = 'UTF-8'
+}
+

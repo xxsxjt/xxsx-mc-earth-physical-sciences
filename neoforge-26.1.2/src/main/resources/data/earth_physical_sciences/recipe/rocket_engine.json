@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "IPI",
+    "ICI",
+    "T T"
+  ],
+  "key": {
+    "I": "earth_on_minecraft:inconel",
+    "P": "minecraft:piston",
+    "C": "earth_on_minecraft:refined_copper",
+    "T": "earth_on_minecraft:titanium_alloy"
+  },
+  "result": {
+    "id": "earth_physical_sciences:rocket_engine",
+    "count": 1
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "discipline": "earth_lore:cmp",
+  "tier": 11,
+  "gate": "hard",
+  "requires": [
+    {
+      "all": "earth_physical_sciences:cmp/quantum_computing"
+    },
+    {
+      "all": "earth_physical_sciences:cmp/software"
+    }
+  ],
+  "item_requires": [],
+  "unlocks": [
+    {
+      "item": "earth_physical_sciences:ai_controller"
+    },
+    {
+      "recipe": "earth_physical_sciences:ai_controller"
+    }
+  ],
+  "literature": [
+    "notes"
+  ],
+  "teachers": [],
+  "fail_codes": [],
+  "name_key": "lore.earth_physical_sciences.cmp.artificial_intelligence",
+  "desc_key": "lore.earth_physical_sciences.cmp.artificial_intelligence.desc",
+  "research": {
+    "items": [
+      {
+        "ingredient": "earth_physical_sciences:quantum_core",
+        "count": 1
+      },
+      {
+        "ingredient": "earth_physical_sciences:integrated_circuit",
+        "count": 8
+      },
+      {
+        "ingredient": "earth_on_minecraft:plc_controller",
+        "count": 4
+      }
+    ],
+    "ticks": 19200
+  }
+}

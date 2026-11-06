@@ -1,0 +1,47 @@
+{
+  "discipline": "earth_lore:cmp",
+  "tier": 7,
+  "gate": "soft",
+  "requires": [
+    {
+      "all": "earth_physical_sciences:cmp/semiconductor_physics"
+    }
+  ],
+  "item_requires": [
+    {
+      "held": "earth_physical_sciences:vacuum_furnace"
+    }
+  ],
+  "unlocks": [
+    {
+      "item": "earth_physical_sciences:transistor"
+    },
+    {
+      "item": "earth_physical_sciences:circuit_board"
+    }
+  ],
+  "literature": [
+    "notes"
+  ],
+  "teachers": [],
+  "fail_codes": [],
+  "name_key": "lore.earth_physical_sciences.cmp.transistors",
+  "desc_key": "lore.earth_physical_sciences.cmp.transistors.desc",
+  "research": {
+    "items": [
+      {
+        "ingredient": "earth_physical_sciences:germanium",
+        "count": 4
+      },
+      {
+        "ingredient": "earth_physical_sciences:dopant",
+        "count": 4
+      },
+      {
+        "ingredient": "earth_on_minecraft:gold",
+        "count": 1
+      }
+    ],
+    "ticks": 9600
+  }
+}

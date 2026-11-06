@@ -1,0 +1,55 @@
+{
+  "discipline": "earth_lore:fut",
+  "tier": 12,
+  "gate": "hard",
+  "requires": [
+    {
+      "all": "earth_physical_sciences:fut/interstellar_materials"
+    },
+    {
+      "all": "earth_physical_sciences:ast/space_station"
+    }
+  ],
+  "item_requires": [],
+  "unlocks": [
+    {
+      "item": "earth_physical_sciences:orbital_collector"
+    },
+    {
+      "recipe": "earth_physical_sciences:orbital_collector"
+    },
+    {
+      "block": "earth_physical_sciences:microwave_receiver"
+    },
+    {
+      "item": "earth_physical_sciences:microwave_receiver"
+    },
+    {
+      "recipe": "earth_physical_sciences:microwave_receiver"
+    }
+  ],
+  "literature": [
+    "notes"
+  ],
+  "teachers": [],
+  "fail_codes": [],
+  "name_key": "lore.earth_physical_sciences.fut.megastructures",
+  "desc_key": "lore.earth_physical_sciences.fut.megastructures.desc",
+  "research": {
+    "items": [
+      {
+        "ingredient": "earth_physical_sciences:stellar_alloy",
+        "count": 8
+      },
+      {
+        "ingredient": "earth_physical_sciences:photovoltaic_panel",
+        "count": 16
+      },
+      {
+        "ingredient": "earth_physical_sciences:satellite",
+        "count": 1
+      }
+    ],
+    "ticks": 21600
+  }
+}

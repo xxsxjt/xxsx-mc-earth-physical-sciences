@@ -1,0 +1,42 @@
+{
+  "discipline": "earth_lore:phy",
+  "tier": 2,
+  "gate": "theory",
+  "requires": [
+    {
+      "all": "earth_physical_sciences:phy/physics_basics"
+    },
+    {
+      "all": "earth_on_minecraft:eng/mechanics"
+    }
+  ],
+  "item_requires": [],
+  "unlocks": [],
+  "literature": [
+    "notes"
+  ],
+  "teachers": [
+    "earth_physical_sciences:physicist",
+    "minecraft:librarian"
+  ],
+  "fail_codes": [],
+  "name_key": "lore.earth_physical_sciences.phy.classical_mechanics",
+  "desc_key": "lore.earth_physical_sciences.phy.classical_mechanics.desc",
+  "research": {
+    "items": [
+      {
+        "ingredient": "minecraft:arrow",
+        "count": 8
+      },
+      {
+        "ingredient": "minecraft:string",
+        "count": 4
+      },
+      {
+        "ingredient": "minecraft:paper",
+        "count": 4
+      }
+    ],
+    "ticks": 1200
+  }
+}

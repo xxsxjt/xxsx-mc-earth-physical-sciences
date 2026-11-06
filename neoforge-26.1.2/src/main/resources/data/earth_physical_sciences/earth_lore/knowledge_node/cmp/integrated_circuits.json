@@ -1,0 +1,58 @@
+{
+  "discipline": "earth_lore:cmp",
+  "tier": 9,
+  "gate": "soft",
+  "requires": [
+    {
+      "all": "earth_physical_sciences:cmp/transistors"
+    },
+    {
+      "all": "earth_physical_sciences:cmp/silicon_refining"
+    }
+  ],
+  "item_requires": [],
+  "unlocks": [
+    {
+      "item": "earth_physical_sciences:photoresist"
+    },
+    {
+      "block": "earth_physical_sciences:wafer_fab"
+    },
+    {
+      "item": "earth_physical_sciences:wafer_fab"
+    },
+    {
+      "item": "earth_physical_sciences:integrated_circuit"
+    },
+    {
+      "block": "earth_physical_sciences:cleanroom_filter"
+    },
+    {
+      "item": "earth_physical_sciences:cleanroom_filter"
+    }
+  ],
+  "literature": [
+    "notes"
+  ],
+  "teachers": [],
+  "fail_codes": [],
+  "name_key": "lore.earth_physical_sciences.cmp.integrated_circuits",
+  "desc_key": "lore.earth_physical_sciences.cmp.integrated_circuits.desc",
+  "research": {
+    "items": [
+      {
+        "ingredient": "earth_on_minecraft:silicon_wafer",
+        "count": 4
+      },
+      {
+        "ingredient": "earth_on_minecraft:photoresist_precursor",
+        "count": 2
+      },
+      {
+        "ingredient": "earth_physical_sciences:etchant",
+        "count": 2
+      }
+    ],
+    "ticks": 14400
+  }
+}

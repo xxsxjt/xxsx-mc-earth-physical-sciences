@@ -1,0 +1,22 @@
+{
+  "type": "earth_lore:gated",
+  "node": "earth_physical_sciences:phy/controlled_fusion",
+  "recipe": {
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "YCY",
+      "TMT",
+      "YCY"
+    ],
+    "key": {
+      "Y": "earth_physical_sciences:superconductor_coil",
+      "C": "earth_on_minecraft:heavy_copper_power_cable",
+      "T": "earth_on_minecraft:transformer_core",
+      "M": "earth_physical_sciences:mainframe"
+    },
+    "result": {
+      "id": "earth_physical_sciences:fusion_igniter",
+      "count": 1
+    }
+  }
+}

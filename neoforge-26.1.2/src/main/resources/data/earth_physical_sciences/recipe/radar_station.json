@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SSS",
+    "VCV",
+    "SIS"
+  ],
+  "key": {
+    "S": "earth_on_minecraft:steel",
+    "V": "earth_physical_sciences:vacuum_tube",
+    "C": "earth_physical_sciences:circuit_board",
+    "I": "earth_on_minecraft:industrial_sensor"
+  },
+  "result": {
+    "id": "earth_physical_sciences:radar_station",
+    "count": 1
+  }
+}

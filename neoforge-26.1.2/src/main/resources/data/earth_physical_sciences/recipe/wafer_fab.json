@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "LCL",
+    "MPM",
+    "SCS"
+  ],
+  "key": {
+    "L": "earth_physical_sciences:ground_lens",
+    "C": "earth_physical_sciences:circuit_board",
+    "M": "earth_on_minecraft:machine_vision_camera",
+    "P": "earth_on_minecraft:plc_controller",
+    "S": "earth_on_minecraft:stainless_steel"
+  },
+  "result": {
+    "id": "earth_physical_sciences:wafer_fab",
+    "count": 1
+  }
+}

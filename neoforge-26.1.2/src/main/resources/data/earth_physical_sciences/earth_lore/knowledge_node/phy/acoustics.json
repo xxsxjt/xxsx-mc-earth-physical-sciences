@@ -1,0 +1,40 @@
+{
+  "discipline": "earth_lore:phy",
+  "tier": 3,
+  "gate": "soft",
+  "requires": [
+    {
+      "all": "earth_physical_sciences:phy/classical_mechanics"
+    }
+  ],
+  "item_requires": [],
+  "unlocks": [
+    {
+      "item": "earth_physical_sciences:echo_sounder"
+    }
+  ],
+  "literature": [
+    "notes"
+  ],
+  "teachers": [],
+  "fail_codes": [],
+  "name_key": "lore.earth_physical_sciences.phy.acoustics",
+  "desc_key": "lore.earth_physical_sciences.phy.acoustics.desc",
+  "research": {
+    "items": [
+      {
+        "ingredient": "minecraft:note_block",
+        "count": 2
+      },
+      {
+        "ingredient": "earth_on_minecraft:brass",
+        "count": 2
+      },
+      {
+        "ingredient": "minecraft:paper",
+        "count": 4
+      }
+    ],
+    "ticks": 2400
+  }
+}

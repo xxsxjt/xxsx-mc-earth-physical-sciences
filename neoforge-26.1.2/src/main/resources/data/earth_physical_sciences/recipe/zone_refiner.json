@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SCS",
+    "GTG",
+    "SSS"
+  ],
+  "key": {
+    "S": "earth_on_minecraft:stainless_steel",
+    "C": "earth_on_minecraft:heavy_copper_power_cable",
+    "G": "minecraft:glass",
+    "T": "earth_on_minecraft:transformer_core"
+  },
+  "result": {
+    "id": "earth_physical_sciences:zone_refiner",
+    "count": 1
+  }
+}

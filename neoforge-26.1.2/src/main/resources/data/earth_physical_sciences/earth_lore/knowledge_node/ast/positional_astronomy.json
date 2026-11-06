@@ -1,0 +1,49 @@
+{
+  "discipline": "earth_lore:ast",
+  "tier": 1,
+  "gate": "theory",
+  "requires": [
+    {
+      "all": "earth_physical_sciences:ast/astronomy_basics"
+    }
+  ],
+  "item_requires": [
+    {
+      "cond": "night"
+    },
+    {
+      "cond": "sky"
+    }
+  ],
+  "unlocks": [
+    {
+      "readout": "earth_physical_sciences:star_chart"
+    }
+  ],
+  "literature": [
+    "notes"
+  ],
+  "teachers": [
+    "earth_physical_sciences:astronomer",
+    "minecraft:cartographer"
+  ],
+  "fail_codes": [
+    "needs_night",
+    "sky_blocked"
+  ],
+  "name_key": "lore.earth_physical_sciences.ast.positional_astronomy",
+  "desc_key": "lore.earth_physical_sciences.ast.positional_astronomy.desc",
+  "research": {
+    "items": [
+      {
+        "ingredient": "earth_physical_sciences:star_chart",
+        "count": 2
+      },
+      {
+        "ingredient": "minecraft:paper",
+        "count": 4
+      }
+    ],
+    "ticks": 600
+  }
+}

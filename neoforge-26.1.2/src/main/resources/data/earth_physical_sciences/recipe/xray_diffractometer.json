@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "LTL",
+    "SGS",
+    "SCS"
+  ],
+  "key": {
+    "L": "earth_on_minecraft:lead",
+    "T": "earth_physical_sciences:xray_tube",
+    "G": "earth_physical_sciences:ground_lens",
+    "S": "earth_on_minecraft:steel",
+    "C": "earth_on_minecraft:copper_power_cable"
+  },
+  "result": {
+    "id": "earth_physical_sciences:xray_diffractometer",
+    "count": 1
+  }
+}

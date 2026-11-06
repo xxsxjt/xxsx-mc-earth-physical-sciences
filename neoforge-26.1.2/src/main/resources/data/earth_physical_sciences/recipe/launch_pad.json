@@ -1,0 +1,21 @@
+{
+  "type": "earth_lore:gated",
+  "node": "earth_physical_sciences:ast/launch_operations",
+  "recipe": {
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "CSC",
+      "SPS",
+      "CSC"
+    ],
+    "key": {
+      "C": "earth_on_minecraft:concrete",
+      "S": "earth_on_minecraft:steel",
+      "P": "earth_on_minecraft:plc_controller"
+    },
+    "result": {
+      "id": "earth_physical_sciences:launch_pad",
+      "count": 1
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "discipline": "earth_lore:cmp",
+  "tier": 7,
+  "gate": "soft",
+  "requires": [
+    {
+      "all": "earth_physical_sciences:cmp/digital_computing"
+    }
+  ],
+  "item_requires": [
+    {
+      "made": "earth_physical_sciences:mainframe"
+    }
+  ],
+  "unlocks": [
+    {
+      "item": "earth_physical_sciences:program_card"
+    }
+  ],
+  "literature": [
+    "notes"
+  ],
+  "teachers": [],
+  "fail_codes": [],
+  "name_key": "lore.earth_physical_sciences.cmp.software",
+  "desc_key": "lore.earth_physical_sciences.cmp.software.desc",
+  "research": {
+    "items": [
+      {
+        "ingredient": "minecraft:paper",
+        "count": 16
+      },
+      {
+        "ingredient": "minecraft:book",
+        "count": 2
+      },
+      {
+        "ingredient": "minecraft:redstone",
+        "count": 16
+      }
+    ],
+    "ticks": 9600
+  }
+}

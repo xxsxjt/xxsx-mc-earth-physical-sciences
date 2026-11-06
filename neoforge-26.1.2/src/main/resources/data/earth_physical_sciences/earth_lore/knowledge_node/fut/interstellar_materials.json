@@ -1,0 +1,43 @@
+{
+  "discipline": "earth_lore:fut",
+  "tier": 11,
+  "gate": "hard",
+  "requires": [
+    {
+      "all": "earth_physical_sciences:fut/nanofabrication"
+    },
+    {
+      "all": "earth_physical_sciences:ast/deep_space_exploration"
+    }
+  ],
+  "item_requires": [],
+  "unlocks": [
+    {
+      "item": "earth_physical_sciences:stellar_alloy"
+    }
+  ],
+  "literature": [
+    "notes"
+  ],
+  "teachers": [],
+  "fail_codes": [],
+  "name_key": "lore.earth_physical_sciences.fut.interstellar_materials",
+  "desc_key": "lore.earth_physical_sciences.fut.interstellar_materials.desc",
+  "research": {
+    "items": [
+      {
+        "ingredient": "earth_physical_sciences:asteroid_sample",
+        "count": 4
+      },
+      {
+        "ingredient": "earth_physical_sciences:nano_feedstock",
+        "count": 16
+      },
+      {
+        "ingredient": "earth_on_minecraft:titanium_alloy",
+        "count": 4
+      }
+    ],
+    "ticks": 19200
+  }
+}

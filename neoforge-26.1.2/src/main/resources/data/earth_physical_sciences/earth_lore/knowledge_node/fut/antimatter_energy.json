@@ -1,0 +1,53 @@
+{
+  "discipline": "earth_lore:fut",
+  "tier": 11,
+  "gate": "hard",
+  "requires": [
+    {
+      "all": "earth_physical_sciences:fut/antimatter_containment"
+    },
+    {
+      "all": "earth_physical_sciences:phy/controlled_fusion"
+    }
+  ],
+  "item_requires": [
+    {
+      "made": "earth_physical_sciences:antimatter_cell"
+    }
+  ],
+  "unlocks": [
+    {
+      "block": "earth_physical_sciences:annihilation_reactor"
+    },
+    {
+      "item": "earth_physical_sciences:annihilation_reactor"
+    },
+    {
+      "recipe": "earth_physical_sciences:annihilation_reactor"
+    }
+  ],
+  "literature": [
+    "notes"
+  ],
+  "teachers": [],
+  "fail_codes": [],
+  "name_key": "lore.earth_physical_sciences.fut.antimatter_energy",
+  "desc_key": "lore.earth_physical_sciences.fut.antimatter_energy.desc",
+  "research": {
+    "items": [
+      {
+        "ingredient": "earth_physical_sciences:antimatter_cell",
+        "count": 1
+      },
+      {
+        "ingredient": "earth_physical_sciences:superconducting_cable",
+        "count": 8
+      },
+      {
+        "ingredient": "earth_physical_sciences:plasma_containment",
+        "count": 4
+      }
+    ],
+    "ticks": 19200
+  }
+}

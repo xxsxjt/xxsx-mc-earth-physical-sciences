@@ -1,0 +1,47 @@
+{
+  "discipline": "earth_lore:fut",
+  "tier": 11,
+  "gate": "hard",
+  "requires": [
+    {
+      "all": "earth_physical_sciences:fut/nanofabrication"
+    },
+    {
+      "all": "earth_physical_sciences:phy/optics"
+    }
+  ],
+  "item_requires": [
+    {
+      "made": "earth_physical_sciences:nano_assembler"
+    }
+  ],
+  "unlocks": [
+    {
+      "item": "earth_physical_sciences:metamaterial"
+    }
+  ],
+  "literature": [
+    "notes"
+  ],
+  "teachers": [],
+  "fail_codes": [],
+  "name_key": "lore.earth_physical_sciences.fut.metamaterials",
+  "desc_key": "lore.earth_physical_sciences.fut.metamaterials.desc",
+  "research": {
+    "items": [
+      {
+        "ingredient": "earth_physical_sciences:nano_feedstock",
+        "count": 16
+      },
+      {
+        "ingredient": "earth_on_minecraft:optical_glass",
+        "count": 4
+      },
+      {
+        "ingredient": "earth_on_minecraft:silver",
+        "count": 4
+      }
+    ],
+    "ticks": 19200
+  }
+}

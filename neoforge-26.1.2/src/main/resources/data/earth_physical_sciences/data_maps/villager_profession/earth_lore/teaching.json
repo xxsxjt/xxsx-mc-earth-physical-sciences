@@ -1,0 +1,36 @@
+{
+  "values": {
+    "earth_physical_sciences:physicist": [
+      {
+        "node": "earth_physical_sciences:phy/classical_mechanics",
+        "price": 12,
+        "level": 1,
+        "max_uses": 3
+      }
+    ],
+    "earth_physical_sciences:astronomer": [
+      {
+        "node": "earth_physical_sciences:ast/positional_astronomy",
+        "price": 8,
+        "level": 1,
+        "max_uses": 3
+      }
+    ],
+    "minecraft:librarian": [
+      {
+        "node": "earth_physical_sciences:phy/classical_mechanics",
+        "price": 12,
+        "level": 1,
+        "max_uses": 3
+      }
+    ],
+    "minecraft:cartographer": [
+      {
+        "node": "earth_physical_sciences:ast/positional_astronomy",
+        "price": 8,
+        "level": 1,
+        "max_uses": 3
+      }
+    ]
+  }
+}

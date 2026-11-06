@@ -1,0 +1,46 @@
+{
+  "discipline": "earth_lore:cmp",
+  "tier": 8,
+  "gate": "soft",
+  "requires": [
+    {
+      "all": "earth_physical_sciences:cmp/software"
+    },
+    {
+      "all": "earth_on_minecraft:eng/control_basics"
+    }
+  ],
+  "item_requires": [],
+  "unlocks": [
+    {
+      "block": "earth_physical_sciences:bus_bridge"
+    },
+    {
+      "item": "earth_physical_sciences:bus_bridge"
+    }
+  ],
+  "literature": [
+    "notes"
+  ],
+  "teachers": [],
+  "fail_codes": [],
+  "name_key": "lore.earth_physical_sciences.cmp.automation_networks",
+  "desc_key": "lore.earth_physical_sciences.cmp.automation_networks.desc",
+  "research": {
+    "items": [
+      {
+        "ingredient": "earth_on_minecraft:automation_bus",
+        "count": 2
+      },
+      {
+        "ingredient": "earth_physical_sciences:circuit_board",
+        "count": 2
+      },
+      {
+        "ingredient": "earth_on_minecraft:redstone_io_gateway",
+        "count": 1
+      }
+    ],
+    "ticks": 12000
+  }
+}

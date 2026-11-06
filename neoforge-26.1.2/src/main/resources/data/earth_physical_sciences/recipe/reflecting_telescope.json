@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BMB",
+    "B B",
+    "SLS"
+  ],
+  "key": {
+    "B": "earth_on_minecraft:brass",
+    "M": "earth_physical_sciences:ground_lens",
+    "S": "earth_on_minecraft:steel",
+    "L": "earth_physical_sciences:ground_lens"
+  },
+  "result": {
+    "id": "earth_physical_sciences:reflecting_telescope",
+    "count": 1
+  }
+}

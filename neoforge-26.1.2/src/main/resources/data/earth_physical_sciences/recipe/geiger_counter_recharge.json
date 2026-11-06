@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "earth_physical_sciences:geiger_counter",
+    "minecraft:redstone"
+  ],
+  "result": {
+    "id": "earth_physical_sciences:geiger_counter",
+    "count": 1
+  }
+}

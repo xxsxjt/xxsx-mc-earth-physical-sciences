@@ -1,0 +1,52 @@
+{
+  "discipline": "earth_lore:cmp",
+  "tier": 6,
+  "gate": "soft",
+  "requires": [
+    {
+      "all": "earth_physical_sciences:cmp/vacuum_electronics"
+    },
+    {
+      "all": "earth_physical_sciences:phy/electromagnetism"
+    }
+  ],
+  "item_requires": [],
+  "unlocks": [
+    {
+      "block": "earth_physical_sciences:radio_transceiver"
+    },
+    {
+      "item": "earth_physical_sciences:radio_transceiver"
+    },
+    {
+      "block": "earth_physical_sciences:antenna_mast"
+    },
+    {
+      "item": "earth_physical_sciences:antenna_mast"
+    }
+  ],
+  "literature": [
+    "notes"
+  ],
+  "teachers": [],
+  "fail_codes": [],
+  "name_key": "lore.earth_physical_sciences.cmp.radio_communication",
+  "desc_key": "lore.earth_physical_sciences.cmp.radio_communication.desc",
+  "research": {
+    "items": [
+      {
+        "ingredient": "earth_physical_sciences:vacuum_tube",
+        "count": 4
+      },
+      {
+        "ingredient": "earth_on_minecraft:copper_power_cable",
+        "count": 8
+      },
+      {
+        "ingredient": "earth_on_minecraft:refined_copper",
+        "count": 4
+      }
+    ],
+    "ticks": 7200
+  }
+}

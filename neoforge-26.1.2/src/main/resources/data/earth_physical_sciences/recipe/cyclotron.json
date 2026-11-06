@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "EVE",
+    "CXC",
+    "EVE"
+  ],
+  "key": {
+    "E": "earth_physical_sciences:electromagnet",
+    "V": "earth_physical_sciences:vacuum_tube",
+    "C": "earth_on_minecraft:heavy_copper_power_cable",
+    "X": "earth_on_minecraft:transformer_core"
+  },
+  "result": {
+    "id": "earth_physical_sciences:cyclotron",
+    "count": 1
+  }
+}

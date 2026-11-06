@@ -1,0 +1,46 @@
+{
+  "discipline": "earth_lore:cmp",
+  "tier": 6,
+  "gate": "soft",
+  "requires": [
+    {
+      "all": "earth_physical_sciences:cmp/vacuum_electronics"
+    },
+    {
+      "all": "earth_on_minecraft:eng/control_basics"
+    }
+  ],
+  "item_requires": [],
+  "unlocks": [
+    {
+      "block": "earth_physical_sciences:mainframe"
+    },
+    {
+      "item": "earth_physical_sciences:mainframe"
+    }
+  ],
+  "literature": [
+    "notes"
+  ],
+  "teachers": [],
+  "fail_codes": [],
+  "name_key": "lore.earth_physical_sciences.cmp.digital_computing",
+  "desc_key": "lore.earth_physical_sciences.cmp.digital_computing.desc",
+  "research": {
+    "items": [
+      {
+        "ingredient": "earth_physical_sciences:vacuum_tube",
+        "count": 8
+      },
+      {
+        "ingredient": "earth_on_minecraft:plc_controller",
+        "count": 1
+      },
+      {
+        "ingredient": "minecraft:paper",
+        "count": 16
+      }
+    ],
+    "ticks": 7200
+  }
+}

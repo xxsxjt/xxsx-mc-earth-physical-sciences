@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "LBL",
+    "BGB",
+    "SSS"
+  ],
+  "key": {
+    "L": "earth_physical_sciences:ground_lens",
+    "B": "earth_on_minecraft:brass",
+    "G": "earth_on_minecraft:optical_glass",
+    "S": "earth_on_minecraft:steel"
+  },
+  "result": {
+    "id": "earth_physical_sciences:spectroscope",
+    "count": 1
+  }
+}

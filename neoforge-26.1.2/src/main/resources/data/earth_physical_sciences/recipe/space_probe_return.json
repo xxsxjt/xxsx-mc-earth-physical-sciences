@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "earth_physical_sciences:space_probe",
+    "earth_physical_sciences:heat_shield_tile",
+    "earth_physical_sciences:heat_shield_tile"
+  ],
+  "result": {
+    "id": "earth_physical_sciences:space_probe",
+    "count": 1
+  }
+}

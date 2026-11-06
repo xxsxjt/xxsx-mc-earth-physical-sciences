@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "earth_on_minecraft:optical_glass",
+    "earth_on_minecraft:gem_dust",
+    "earth_on_minecraft:gem_dust"
+  ],
+  "result": {
+    "id": "earth_physical_sciences:ground_lens",
+    "count": 1
+  }
+}

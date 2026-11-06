@@ -1,0 +1,55 @@
+{
+  "discipline": "earth_lore:phy",
+  "tier": 4,
+  "gate": "soft",
+  "requires": [
+    {
+      "all": "earth_physical_sciences:phy/classical_mechanics"
+    },
+    {
+      "all": "earth_on_minecraft:eng/thermodynamics"
+    },
+    {
+      "all": "earth_on_minecraft:mat/glassmaking"
+    }
+  ],
+  "item_requires": [],
+  "unlocks": [
+    {
+      "block": "earth_physical_sciences:vacuum_pump"
+    },
+    {
+      "item": "earth_physical_sciences:vacuum_pump"
+    },
+    {
+      "block": "earth_physical_sciences:vacuum_furnace"
+    },
+    {
+      "item": "earth_physical_sciences:vacuum_furnace"
+    }
+  ],
+  "literature": [
+    "notes"
+  ],
+  "teachers": [],
+  "fail_codes": [],
+  "name_key": "lore.earth_physical_sciences.phy.vacuum_technology",
+  "desc_key": "lore.earth_physical_sciences.phy.vacuum_technology.desc",
+  "research": {
+    "items": [
+      {
+        "ingredient": "minecraft:glass",
+        "count": 8
+      },
+      {
+        "ingredient": "earth_on_minecraft:steel",
+        "count": 4
+      },
+      {
+        "ingredient": "minecraft:piston",
+        "count": 2
+      }
+    ],
+    "ticks": 4800
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "type": "earth_lore:gated",
+  "node": "earth_physical_sciences:fut/warp_drive",
+  "recipe": {
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "MYM",
+      "YTY",
+      "MYM"
+    ],
+    "key": {
+      "M": "earth_physical_sciences:metamaterial",
+      "Y": "earth_physical_sciences:superconductor_coil",
+      "T": "earth_physical_sciences:penning_trap"
+    },
+    "result": {
+      "id": "earth_physical_sciences:warp_core",
+      "count": 1
+    }
+  }
+}

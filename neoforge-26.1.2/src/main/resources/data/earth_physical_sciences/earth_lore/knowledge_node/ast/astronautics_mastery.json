@@ -1,0 +1,46 @@
+{
+  "discipline": "earth_lore:ast",
+  "tier": 10,
+  "gate": "cap",
+  "requires": [
+    {
+      "all": "earth_physical_sciences:ast/astrophysics"
+    },
+    {
+      "all": "earth_physical_sciences:ast/space_station"
+    },
+    {
+      "all": "earth_physical_sciences:ast/deep_space_exploration"
+    }
+  ],
+  "item_requires": [],
+  "unlocks": [
+    {
+      "capstone": "AST"
+    }
+  ],
+  "literature": [
+    "notes"
+  ],
+  "teachers": [],
+  "fail_codes": [],
+  "name_key": "lore.earth_physical_sciences.ast.astronautics_mastery",
+  "desc_key": "lore.earth_physical_sciences.ast.astronautics_mastery.desc",
+  "research": {
+    "items": [
+      {
+        "ingredient": "earth_physical_sciences:deep_space_data",
+        "count": 4
+      },
+      {
+        "ingredient": "earth_physical_sciences:space_suit",
+        "count": 1
+      },
+      {
+        "ingredient": "earth_physical_sciences:star_chart",
+        "count": 8
+      }
+    ],
+    "ticks": 16800
+  }
+}

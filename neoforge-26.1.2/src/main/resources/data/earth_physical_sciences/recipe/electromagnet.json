@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "CCC",
+    "CIC",
+    "CCC"
+  ],
+  "key": {
+    "C": "earth_on_minecraft:refined_copper",
+    "I": "minecraft:iron_block"
+  },
+  "result": {
+    "id": "earth_physical_sciences:electromagnet",
+    "count": 1
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "discipline": "earth_lore:cmp",
+  "tier": 12,
+  "gate": "cap",
+  "requires": [
+    {
+      "all": "earth_physical_sciences:cmp/radar_and_sensing"
+    },
+    {
+      "all": "earth_physical_sciences:cmp/photonic_computing"
+    },
+    {
+      "all": "earth_physical_sciences:cmp/artificial_intelligence"
+    },
+    {
+      "all": "earth_physical_sciences:cmp/automation_networks"
+    }
+  ],
+  "item_requires": [],
+  "unlocks": [
+    {
+      "capstone": "CMP"
+    }
+  ],
+  "literature": [
+    "notes"
+  ],
+  "teachers": [],
+  "fail_codes": [],
+  "name_key": "lore.earth_physical_sciences.cmp.computing_mastery",
+  "desc_key": "lore.earth_physical_sciences.cmp.computing_mastery.desc",
+  "research": {
+    "items": [
+      {
+        "ingredient": "earth_physical_sciences:ai_controller",
+        "count": 1
+      },
+      {
+        "ingredient": "earth_physical_sciences:photonic_core",
+        "count": 1
+      },
+      {
+        "ingredient": "earth_physical_sciences:mainframe",
+        "count": 1
+      }
+    ],
+    "ticks": 21600
+  }
+}

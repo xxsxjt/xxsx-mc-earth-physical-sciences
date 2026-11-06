@@ -1,0 +1,49 @@
+{
+  "discipline": "earth_lore:phy",
+  "tier": 5,
+  "gate": "soft",
+  "requires": [
+    {
+      "all": "earth_physical_sciences:phy/vacuum_technology"
+    },
+    {
+      "all": "earth_on_minecraft:eng/thermodynamics"
+    }
+  ],
+  "item_requires": [],
+  "unlocks": [
+    {
+      "block": "earth_physical_sciences:cryocooler"
+    },
+    {
+      "item": "earth_physical_sciences:cryocooler"
+    },
+    {
+      "item": "earth_physical_sciences:dewar_flask"
+    }
+  ],
+  "literature": [
+    "notes"
+  ],
+  "teachers": [],
+  "fail_codes": [],
+  "name_key": "lore.earth_physical_sciences.phy.cryogenics",
+  "desc_key": "lore.earth_physical_sciences.phy.cryogenics.desc",
+  "research": {
+    "items": [
+      {
+        "ingredient": "earth_on_minecraft:stainless_steel",
+        "count": 4
+      },
+      {
+        "ingredient": "earth_on_minecraft:copper_power_cable",
+        "count": 4
+      },
+      {
+        "ingredient": "minecraft:packed_ice",
+        "count": 8
+      }
+    ],
+    "ticks": 6000
+  }
+}

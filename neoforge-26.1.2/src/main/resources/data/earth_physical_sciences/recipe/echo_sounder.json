@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " B ",
+    "BRB",
+    " C "
+  ],
+  "key": {
+    "B": "earth_on_minecraft:brass",
+    "R": "minecraft:redstone",
+    "C": "earth_on_minecraft:copper_power_cable"
+  },
+  "result": {
+    "id": "earth_physical_sciences:echo_sounder",
+    "count": 1
+  }
+}

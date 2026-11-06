@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "earth_physical_sciences:echo_sounder",
+    "minecraft:redstone"
+  ],
+  "result": {
+    "id": "earth_physical_sciences:echo_sounder",
+    "count": 1
+  }
+}

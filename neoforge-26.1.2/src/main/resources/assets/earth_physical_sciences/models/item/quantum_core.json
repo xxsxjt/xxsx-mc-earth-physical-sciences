@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "earth_physical_sciences:item/quantum_core"
+  }
+}

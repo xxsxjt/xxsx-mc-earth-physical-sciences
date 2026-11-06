@@ -1,0 +1,47 @@
+{
+  "discipline": "earth_lore:phy",
+  "tier": 5,
+  "gate": "theory",
+  "requires": [
+    {
+      "all": "earth_physical_sciences:phy/optics"
+    },
+    {
+      "all": "earth_physical_sciences:phy/electromagnetism"
+    }
+  ],
+  "item_requires": [
+    {
+      "held": "earth_physical_sciences:spectroscope"
+    }
+  ],
+  "unlocks": [
+    {
+      "readout": "earth_physical_sciences:spectroscope"
+    }
+  ],
+  "literature": [
+    "notes"
+  ],
+  "teachers": [],
+  "fail_codes": [],
+  "name_key": "lore.earth_physical_sciences.phy.quantum_mechanics",
+  "desc_key": "lore.earth_physical_sciences.phy.quantum_mechanics.desc",
+  "research": {
+    "items": [
+      {
+        "ingredient": "earth_physical_sciences:ground_lens",
+        "count": 2
+      },
+      {
+        "ingredient": "earth_on_minecraft:salt",
+        "count": 2
+      },
+      {
+        "ingredient": "minecraft:paper",
+        "count": 8
+      }
+    ],
+    "ticks": 6000
+  }
+}

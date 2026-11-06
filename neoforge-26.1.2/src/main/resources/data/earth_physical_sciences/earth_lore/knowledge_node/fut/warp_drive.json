@@ -1,0 +1,70 @@
+{
+  "discipline": "earth_lore:fut",
+  "tier": 12,
+  "gate": "hard",
+  "requires": [
+    {
+      "all": "earth_physical_sciences:fut/metamaterials"
+    },
+    {
+      "all": "earth_physical_sciences:fut/antimatter_energy"
+    },
+    {
+      "all": "earth_physical_sciences:fut/warp_theory"
+    },
+    {
+      "all": "earth_physical_sciences:ast/space_station"
+    }
+  ],
+  "item_requires": [
+    {
+      "cond": "dim:earth_physical_sciences:low_earth_orbit"
+    }
+  ],
+  "unlocks": [
+    {
+      "block": "earth_physical_sciences:warp_core"
+    },
+    {
+      "item": "earth_physical_sciences:warp_core"
+    },
+    {
+      "recipe": "earth_physical_sciences:warp_core"
+    },
+    {
+      "block": "earth_physical_sciences:warp_beacon"
+    },
+    {
+      "item": "earth_physical_sciences:warp_beacon"
+    },
+    {
+      "recipe": "earth_physical_sciences:warp_beacon"
+    }
+  ],
+  "literature": [
+    "notes"
+  ],
+  "teachers": [],
+  "fail_codes": [
+    "wrong_dimension"
+  ],
+  "name_key": "lore.earth_physical_sciences.fut.warp_drive",
+  "desc_key": "lore.earth_physical_sciences.fut.warp_drive.desc",
+  "research": {
+    "items": [
+      {
+        "ingredient": "earth_physical_sciences:metamaterial",
+        "count": 8
+      },
+      {
+        "ingredient": "earth_physical_sciences:antimatter_cell",
+        "count": 2
+      },
+      {
+        "ingredient": "earth_physical_sciences:station_core",
+        "count": 1
+      }
+    ],
+    "ticks": 21600
+  }
+}

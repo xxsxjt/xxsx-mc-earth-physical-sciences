@@ -1,0 +1,53 @@
+{
+  "discipline": "earth_lore:phy",
+  "tier": 7,
+  "gate": "soft",
+  "requires": [
+    {
+      "all": "earth_physical_sciences:phy/electromagnetism"
+    },
+    {
+      "all": "earth_physical_sciences:phy/vacuum_technology"
+    },
+    {
+      "all": "earth_physical_sciences:phy/nuclear_physics"
+    }
+  ],
+  "item_requires": [
+    {
+      "held": "earth_physical_sciences:vacuum_pump"
+    }
+  ],
+  "unlocks": [
+    {
+      "block": "earth_physical_sciences:cyclotron"
+    },
+    {
+      "item": "earth_physical_sciences:cyclotron"
+    }
+  ],
+  "literature": [
+    "notes"
+  ],
+  "teachers": [],
+  "fail_codes": [],
+  "name_key": "lore.earth_physical_sciences.phy.particle_acceleration",
+  "desc_key": "lore.earth_physical_sciences.phy.particle_acceleration.desc",
+  "research": {
+    "items": [
+      {
+        "ingredient": "earth_physical_sciences:electromagnet",
+        "count": 4
+      },
+      {
+        "ingredient": "earth_physical_sciences:vacuum_tube",
+        "count": 2
+      },
+      {
+        "ingredient": "earth_on_minecraft:steel",
+        "count": 16
+      }
+    ],
+    "ticks": 9600
+  }
+}

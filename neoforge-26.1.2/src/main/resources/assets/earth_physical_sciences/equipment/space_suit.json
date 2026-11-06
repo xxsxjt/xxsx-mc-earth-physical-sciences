@@ -1,0 +1,9 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "earth_physical_sciences:space_suit"
+      }
+    ]
+  }
+}

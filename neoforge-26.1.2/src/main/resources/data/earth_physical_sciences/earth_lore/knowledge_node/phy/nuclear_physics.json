@@ -1,0 +1,52 @@
+{
+  "discipline": "earth_lore:phy",
+  "tier": 6,
+  "gate": "soft",
+  "requires": [
+    {
+      "all": "earth_physical_sciences:phy/quantum_mechanics"
+    },
+    {
+      "all": "earth_on_minecraft:che/radiochemistry"
+    }
+  ],
+  "item_requires": [],
+  "unlocks": [
+    {
+      "item": "earth_physical_sciences:geiger_counter"
+    },
+    {
+      "block": "earth_physical_sciences:isotope_separator"
+    },
+    {
+      "item": "earth_physical_sciences:isotope_separator"
+    },
+    {
+      "readout": "earth_physical_sciences:geiger_counter"
+    }
+  ],
+  "literature": [
+    "notes"
+  ],
+  "teachers": [],
+  "fail_codes": [],
+  "name_key": "lore.earth_physical_sciences.phy.nuclear_physics",
+  "desc_key": "lore.earth_physical_sciences.phy.nuclear_physics.desc",
+  "research": {
+    "items": [
+      {
+        "ingredient": "earth_on_minecraft:uraninite_ore",
+        "count": 2
+      },
+      {
+        "ingredient": "earth_on_minecraft:lead",
+        "count": 8
+      },
+      {
+        "ingredient": "minecraft:paper",
+        "count": 8
+      }
+    ],
+    "ticks": 7200
+  }
+}

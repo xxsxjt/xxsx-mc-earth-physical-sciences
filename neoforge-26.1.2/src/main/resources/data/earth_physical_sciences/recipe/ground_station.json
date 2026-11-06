@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "MMM",
+    "RCR",
+    "SAS"
+  ],
+  "key": {
+    "M": "earth_on_minecraft:aluminium_alloy",
+    "R": "earth_physical_sciences:radio_transceiver",
+    "C": "earth_physical_sciences:circuit_board",
+    "S": "earth_on_minecraft:steel",
+    "A": "earth_physical_sciences:antenna_mast"
+  },
+  "result": {
+    "id": "earth_physical_sciences:ground_station",
+    "count": 1
+  }
+}

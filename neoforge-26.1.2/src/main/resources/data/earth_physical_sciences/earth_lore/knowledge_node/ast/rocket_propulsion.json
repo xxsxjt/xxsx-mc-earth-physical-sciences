@@ -1,0 +1,49 @@
+{
+  "discipline": "earth_lore:ast",
+  "tier": 6,
+  "gate": "soft",
+  "requires": [
+    {
+      "all": "earth_physical_sciences:ast/celestial_mechanics"
+    },
+    {
+      "all": "earth_on_minecraft:eng/internal_combustion"
+    },
+    {
+      "all": "earth_physical_sciences:phy/cryogenics"
+    }
+  ],
+  "item_requires": [],
+  "unlocks": [
+    {
+      "item": "earth_physical_sciences:rocket_engine"
+    },
+    {
+      "item": "earth_physical_sciences:propellant_tank"
+    }
+  ],
+  "literature": [
+    "notes"
+  ],
+  "teachers": [],
+  "fail_codes": [],
+  "name_key": "lore.earth_physical_sciences.ast.rocket_propulsion",
+  "desc_key": "lore.earth_physical_sciences.ast.rocket_propulsion.desc",
+  "research": {
+    "items": [
+      {
+        "ingredient": "earth_physical_sciences:liquid_oxygen",
+        "count": 4
+      },
+      {
+        "ingredient": "earth_on_minecraft:inconel",
+        "count": 2
+      },
+      {
+        "ingredient": "earth_on_minecraft:steel",
+        "count": 8
+      }
+    ],
+    "ticks": 7200
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "type": "earth_lore:gated",
+  "node": "earth_physical_sciences:ast/launch_operations",
+  "recipe": {
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "FGF",
+      "FCF",
+      "TTT"
+    ],
+    "key": {
+      "F": "earth_physical_sciences:vacuum_frame",
+      "G": "minecraft:glass",
+      "C": "earth_physical_sciences:circuit_board",
+      "T": "earth_physical_sciences:heat_shield_tile"
+    },
+    "result": {
+      "id": "earth_physical_sciences:crew_capsule",
+      "count": 1
+    }
+  }
+}

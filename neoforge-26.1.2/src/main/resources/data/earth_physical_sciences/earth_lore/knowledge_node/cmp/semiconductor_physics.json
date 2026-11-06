@@ -1,0 +1,46 @@
+{
+  "discipline": "earth_lore:cmp",
+  "tier": 6,
+  "gate": "soft",
+  "requires": [
+    {
+      "all": "earth_physical_sciences:cmp/circuit_theory"
+    },
+    {
+      "all": "earth_physical_sciences:phy/quantum_mechanics"
+    }
+  ],
+  "item_requires": [],
+  "unlocks": [
+    {
+      "block": "earth_physical_sciences:photovoltaic_panel"
+    },
+    {
+      "item": "earth_physical_sciences:photovoltaic_panel"
+    }
+  ],
+  "literature": [
+    "notes"
+  ],
+  "teachers": [],
+  "fail_codes": [],
+  "name_key": "lore.earth_physical_sciences.cmp.semiconductor_physics",
+  "desc_key": "lore.earth_physical_sciences.cmp.semiconductor_physics.desc",
+  "research": {
+    "items": [
+      {
+        "ingredient": "earth_physical_sciences:germanium",
+        "count": 2
+      },
+      {
+        "ingredient": "earth_physical_sciences:dopant",
+        "count": 2
+      },
+      {
+        "ingredient": "earth_on_minecraft:refined_copper",
+        "count": 4
+      }
+    ],
+    "ticks": 7200
+  }
+}

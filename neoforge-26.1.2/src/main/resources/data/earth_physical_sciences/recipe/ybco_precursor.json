@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "earth_on_minecraft:mixed_rare_earth_oxide",
+    "earth_physical_sciences:barium_carbonate",
+    "earth_physical_sciences:barium_carbonate",
+    "earth_on_minecraft:refined_copper",
+    "earth_on_minecraft:refined_copper",
+    "earth_on_minecraft:refined_copper"
+  ],
+  "result": {
+    "id": "earth_physical_sciences:ybco_precursor",
+    "count": 2
+  }
+}

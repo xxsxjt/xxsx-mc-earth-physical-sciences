@@ -1,0 +1,47 @@
+{
+  "discipline": "earth_lore:cmp",
+  "tier": 5,
+  "gate": "soft",
+  "requires": [
+    {
+      "all": "earth_physical_sciences:cmp/circuit_theory"
+    },
+    {
+      "all": "earth_physical_sciences:phy/vacuum_technology"
+    }
+  ],
+  "item_requires": [
+    {
+      "held": "earth_physical_sciences:vacuum_pump"
+    }
+  ],
+  "unlocks": [
+    {
+      "item": "earth_physical_sciences:vacuum_tube"
+    }
+  ],
+  "literature": [
+    "notes"
+  ],
+  "teachers": [],
+  "fail_codes": [],
+  "name_key": "lore.earth_physical_sciences.cmp.vacuum_electronics",
+  "desc_key": "lore.earth_physical_sciences.cmp.vacuum_electronics.desc",
+  "research": {
+    "items": [
+      {
+        "ingredient": "minecraft:glass",
+        "count": 8
+      },
+      {
+        "ingredient": "earth_on_minecraft:tungsten",
+        "count": 2
+      },
+      {
+        "ingredient": "earth_on_minecraft:nickel",
+        "count": 2
+      }
+    ],
+    "ticks": 6000
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SMS",
+    "MPM",
+    "SMS"
+  ],
+  "key": {
+    "S": "earth_on_minecraft:steel",
+    "M": "earth_on_minecraft:mineral_wool",
+    "P": "minecraft:piston"
+  },
+  "result": {
+    "id": "earth_physical_sciences:cleanroom_filter",
+    "count": 2
+  }
+}

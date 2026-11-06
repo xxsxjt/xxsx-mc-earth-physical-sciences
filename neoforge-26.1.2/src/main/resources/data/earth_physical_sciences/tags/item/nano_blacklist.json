@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "#earth_lore:carriers",
+    "minecraft:written_book",
+    "earth_physical_sciences:antimatter_cell",
+    "earth_physical_sciences:stellar_alloy",
+    "earth_physical_sciences:metamaterial"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "type": "earth_lore:gated",
+  "node": "earth_physical_sciences:ast/space_station",
+  "recipe": {
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "FTF",
+      "LCB",
+      "FTF"
+    ],
+    "key": {
+      "F": "earth_physical_sciences:vacuum_frame",
+      "T": "earth_physical_sciences:heat_shield_tile",
+      "L": "earth_physical_sciences:life_support_unit",
+      "C": "earth_physical_sciences:circuit_board",
+      "B": "earth_physical_sciences:power_bus"
+    },
+    "result": {
+      "id": "earth_physical_sciences:station_core",
+      "count": 1
+    }
+  }
+}

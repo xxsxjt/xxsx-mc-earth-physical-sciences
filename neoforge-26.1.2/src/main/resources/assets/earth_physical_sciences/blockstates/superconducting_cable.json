@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "cooled=false": {
+      "model": "earth_physical_sciences:block/superconducting_cable"
+    },
+    "cooled=true": {
+      "model": "earth_physical_sciences:block/superconducting_cable"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "W W",
+    "WDW",
+    "AWA"
+  ],
+  "key": {
+    "W": "earth_on_minecraft:waxed_canvas",
+    "D": "earth_physical_sciences:dewar_flask",
+    "A": "earth_on_minecraft:aluminium_alloy"
+  },
+  "result": {
+    "id": "earth_physical_sciences:space_suit",
+    "count": 1
+  }
+}

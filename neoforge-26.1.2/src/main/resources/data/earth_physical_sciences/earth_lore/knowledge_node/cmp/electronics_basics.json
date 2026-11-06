@@ -1,0 +1,13 @@
+{
+  "discipline": "earth_lore:cmp",
+  "tier": 0,
+  "gate": "root",
+  "requires": [],
+  "item_requires": [],
+  "unlocks": [],
+  "literature": [],
+  "teachers": [],
+  "fail_codes": [],
+  "name_key": "lore.earth_physical_sciences.cmp.electronics_basics",
+  "desc_key": "lore.earth_physical_sciences.cmp.electronics_basics.desc"
+}

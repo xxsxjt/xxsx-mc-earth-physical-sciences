@@ -1,0 +1,44 @@
+modLoader="javafml"
+loaderVersion="[1,)"
+license="All Rights Reserved"
+
+[[mods]]
+modId="earth_physical_sciences"
+version="0.1.0"
+displayName="Earth: Physical Sciences"
+authors="xxsx"
+description='''
+Physics, electronics & computing, astronomy & astronautics, and far-future axioms expansion for Earth on Minecraft.
+'''
+
+[[mixins]]
+config="earth_physical_sciences.mixins.json"
+
+[[dependencies.earth_physical_sciences]]
+    modId="neoforge"
+    type="required"
+    versionRange="[26.1.2.124,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.earth_physical_sciences]]
+    modId="minecraft"
+    type="required"
+    versionRange="[26.1.2]"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.earth_physical_sciences]]
+    modId="earth_lore"
+    type="required"
+    versionRange="[0.1.0,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.earth_physical_sciences]]
+    modId="earth_on_minecraft"
+    type="required"
+    versionRange="[0.2.0,)"
+    ordering="AFTER"
+    side="BOTH"
+

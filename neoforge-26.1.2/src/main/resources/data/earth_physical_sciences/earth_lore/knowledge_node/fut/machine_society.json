@@ -1,0 +1,55 @@
+{
+  "discipline": "earth_lore:fut",
+  "tier": 12,
+  "gate": "hard",
+  "requires": [
+    {
+      "all": "earth_physical_sciences:cmp/artificial_intelligence"
+    },
+    {
+      "all": "earth_physical_sciences:fut/nanofabrication"
+    },
+    {
+      "all": "earth_physical_sciences:fut/interstellar_materials"
+    }
+  ],
+  "item_requires": [],
+  "unlocks": [
+    {
+      "block": "earth_physical_sciences:android_assembly_bay"
+    },
+    {
+      "item": "earth_physical_sciences:android_assembly_bay"
+    },
+    {
+      "recipe": "earth_physical_sciences:android_assembly_bay"
+    },
+    {
+      "entity": "earth_physical_sciences:android_worker"
+    }
+  ],
+  "literature": [
+    "notes"
+  ],
+  "teachers": [],
+  "fail_codes": [],
+  "name_key": "lore.earth_physical_sciences.fut.machine_society",
+  "desc_key": "lore.earth_physical_sciences.fut.machine_society.desc",
+  "research": {
+    "items": [
+      {
+        "ingredient": "earth_physical_sciences:ai_controller",
+        "count": 2
+      },
+      {
+        "ingredient": "earth_physical_sciences:stellar_alloy",
+        "count": 4
+      },
+      {
+        "ingredient": "earth_physical_sciences:high_density_cell",
+        "count": 2
+      }
+    ],
+    "ticks": 21600
+  }
+}

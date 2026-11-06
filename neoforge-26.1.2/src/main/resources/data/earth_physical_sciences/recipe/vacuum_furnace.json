@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SMS",
+    "M M",
+    "SCS"
+  ],
+  "key": {
+    "S": "earth_on_minecraft:steel",
+    "M": "earth_on_minecraft:mineral_wool",
+    "C": "earth_on_minecraft:copper_power_cable"
+  },
+  "result": {
+    "id": "earth_physical_sciences:vacuum_furnace",
+    "count": 1
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "discipline": "earth_lore:fut",
+  "tier": 10,
+  "gate": "hard",
+  "requires": [
+    {
+      "all": "earth_physical_sciences:fut/axiom_primer"
+    },
+    {
+      "all": "earth_physical_sciences:cmp/integrated_circuits"
+    },
+    {
+      "all": "earth_physical_sciences:phy/lasers"
+    }
+  ],
+  "item_requires": [],
+  "unlocks": [
+    {
+      "block": "earth_physical_sciences:nano_assembler"
+    },
+    {
+      "item": "earth_physical_sciences:nano_assembler"
+    },
+    {
+      "recipe": "earth_physical_sciences:nano_assembler"
+    }
+  ],
+  "literature": [
+    "notes"
+  ],
+  "teachers": [],
+  "fail_codes": [],
+  "name_key": "lore.earth_physical_sciences.fut.nanofabrication",
+  "desc_key": "lore.earth_physical_sciences.fut.nanofabrication.desc",
+  "research": {
+    "items": [
+      {
+        "ingredient": "earth_physical_sciences:integrated_circuit",
+        "count": 4
+      },
+      {
+        "ingredient": "earth_physical_sciences:laser_diode",
+        "count": 4
+      },
+      {
+        "ingredient": "earth_physical_sciences:nano_feedstock",
+        "count": 8
+      }
+    ],
+    "ticks": 16800
+  }
+}

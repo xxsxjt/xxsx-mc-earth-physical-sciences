@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "TCT"
+  ],
+  "key": {
+    "T": "earth_on_minecraft:titanium_alloy",
+    "C": "earth_physical_sciences:carbon_composite"
+  },
+  "result": {
+    "id": "earth_physical_sciences:vacuum_frame",
+    "count": 4
+  }
+}

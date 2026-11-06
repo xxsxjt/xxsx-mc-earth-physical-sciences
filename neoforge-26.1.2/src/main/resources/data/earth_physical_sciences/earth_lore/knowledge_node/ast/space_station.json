@@ -1,0 +1,55 @@
+{
+  "discipline": "earth_lore:ast",
+  "tier": 8,
+  "gate": "hard",
+  "requires": [
+    {
+      "all": "earth_physical_sciences:ast/launch_operations"
+    },
+    {
+      "all": "earth_physical_sciences:ast/life_support"
+    }
+  ],
+  "item_requires": [
+    {
+      "cond": "dim:earth_physical_sciences:low_earth_orbit"
+    }
+  ],
+  "unlocks": [
+    {
+      "block": "earth_physical_sciences:station_core"
+    },
+    {
+      "item": "earth_physical_sciences:station_core"
+    },
+    {
+      "recipe": "earth_physical_sciences:station_core"
+    }
+  ],
+  "literature": [
+    "notes"
+  ],
+  "teachers": [],
+  "fail_codes": [
+    "wrong_dimension"
+  ],
+  "name_key": "lore.earth_physical_sciences.ast.space_station",
+  "desc_key": "lore.earth_physical_sciences.ast.space_station.desc",
+  "research": {
+    "items": [
+      {
+        "ingredient": "earth_physical_sciences:vacuum_frame",
+        "count": 8
+      },
+      {
+        "ingredient": "earth_physical_sciences:life_support_unit",
+        "count": 1
+      },
+      {
+        "ingredient": "earth_physical_sciences:power_bus",
+        "count": 1
+      }
+    ],
+    "ticks": 12000
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "discipline": "earth_lore:ast",
+  "tier": 8,
+  "gate": "theory",
+  "requires": [
+    {
+      "all": "earth_physical_sciences:ast/celestial_mechanics"
+    },
+    {
+      "all": "earth_physical_sciences:ast/launch_operations"
+    },
+    {
+      "all": "earth_physical_sciences:phy/relativity"
+    }
+  ],
+  "item_requires": [],
+  "unlocks": [
+    {
+      "readout": "earth_physical_sciences:ground_station"
+    }
+  ],
+  "literature": [
+    "notes"
+  ],
+  "teachers": [],
+  "fail_codes": [],
+  "name_key": "lore.earth_physical_sciences.ast.orbital_mechanics",
+  "desc_key": "lore.earth_physical_sciences.ast.orbital_mechanics.desc",
+  "research": {
+    "items": [
+      {
+        "ingredient": "earth_physical_sciences:program_card",
+        "count": 2
+      },
+      {
+        "ingredient": "earth_physical_sciences:star_chart",
+        "count": 8
+      },
+      {
+        "ingredient": "minecraft:paper",
+        "count": 16
+      }
+    ],
+    "ticks": 12000
+  }
+}

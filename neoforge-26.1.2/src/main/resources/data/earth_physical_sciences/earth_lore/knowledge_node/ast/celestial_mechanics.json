@@ -1,0 +1,45 @@
+{
+  "discipline": "earth_lore:ast",
+  "tier": 3,
+  "gate": "theory",
+  "requires": [
+    {
+      "all": "earth_physical_sciences:ast/positional_astronomy"
+    },
+    {
+      "all": "earth_physical_sciences:phy/classical_mechanics"
+    }
+  ],
+  "item_requires": [
+    {
+      "cond": "night"
+    }
+  ],
+  "unlocks": [],
+  "literature": [
+    "notes"
+  ],
+  "teachers": [],
+  "fail_codes": [
+    "needs_night"
+  ],
+  "name_key": "lore.earth_physical_sciences.ast.celestial_mechanics",
+  "desc_key": "lore.earth_physical_sciences.ast.celestial_mechanics.desc",
+  "research": {
+    "items": [
+      {
+        "ingredient": "earth_physical_sciences:star_chart",
+        "count": 4
+      },
+      {
+        "ingredient": "minecraft:clock",
+        "count": 1
+      },
+      {
+        "ingredient": "minecraft:paper",
+        "count": 8
+      }
+    ],
+    "ticks": 2400
+  }
+}

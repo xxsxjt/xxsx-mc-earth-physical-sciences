@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "earth_on_minecraft:filter_cake",
+    "earth_on_minecraft:filter_cake",
+    "earth_on_minecraft:filter_cake",
+    "earth_on_minecraft:filter_cake",
+    "earth_on_minecraft:sodium_bicarbonate",
+    "earth_on_minecraft:sodium_bicarbonate"
+  ],
+  "result": {
+    "id": "earth_physical_sciences:barium_carbonate",
+    "count": 1
+  }
+}

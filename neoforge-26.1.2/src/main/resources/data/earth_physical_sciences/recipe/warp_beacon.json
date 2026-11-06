@@ -1,0 +1,21 @@
+{
+  "type": "earth_lore:gated",
+  "node": "earth_physical_sciences:fut/warp_drive",
+  "recipe": {
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      " M ",
+      "SRS",
+      " S "
+    ],
+    "key": {
+      "M": "earth_physical_sciences:metamaterial",
+      "S": "earth_on_minecraft:steel",
+      "R": "earth_physical_sciences:radio_transceiver"
+    },
+    "result": {
+      "id": "earth_physical_sciences:warp_beacon",
+      "count": 1
+    }
+  }
+}

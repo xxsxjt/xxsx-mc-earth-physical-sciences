@@ -1,0 +1,46 @@
+{
+  "discipline": "earth_lore:phy",
+  "tier": 6,
+  "gate": "soft",
+  "requires": [
+    {
+      "all": "earth_physical_sciences:phy/optics"
+    },
+    {
+      "all": "earth_physical_sciences:phy/quantum_mechanics"
+    }
+  ],
+  "item_requires": [],
+  "unlocks": [
+    {
+      "block": "earth_physical_sciences:laser_cutter"
+    },
+    {
+      "item": "earth_physical_sciences:laser_cutter"
+    }
+  ],
+  "literature": [
+    "notes"
+  ],
+  "teachers": [],
+  "fail_codes": [],
+  "name_key": "lore.earth_physical_sciences.phy.lasers",
+  "desc_key": "lore.earth_physical_sciences.phy.lasers.desc",
+  "research": {
+    "items": [
+      {
+        "ingredient": "earth_physical_sciences:ground_lens",
+        "count": 4
+      },
+      {
+        "ingredient": "earth_on_minecraft:gem_cut",
+        "count": 1
+      },
+      {
+        "ingredient": "earth_on_minecraft:refined_copper",
+        "count": 4
+      }
+    ],
+    "ticks": 7200
+  }
+}

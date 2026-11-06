@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PRP",
+    "FCF",
+    "PDP"
+  ],
+  "key": {
+    "P": "earth_physical_sciences:photovoltaic_panel",
+    "R": "earth_physical_sciences:radio_transceiver",
+    "F": "earth_physical_sciences:vacuum_frame",
+    "C": "earth_physical_sciences:circuit_board",
+    "D": "earth_physical_sciences:high_density_cell"
+  },
+  "result": {
+    "id": "earth_physical_sciences:space_probe",
+    "count": 1
+  }
+}

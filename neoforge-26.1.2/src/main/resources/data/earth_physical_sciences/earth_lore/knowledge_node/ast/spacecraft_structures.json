@@ -1,0 +1,46 @@
+{
+  "discipline": "earth_lore:ast",
+  "tier": 5,
+  "gate": "soft",
+  "requires": [
+    {
+      "all": "earth_physical_sciences:phy/classical_mechanics"
+    },
+    {
+      "all": "earth_physical_sciences:phy/vacuum_technology"
+    },
+    {
+      "all": "earth_on_minecraft:mat/electrometallurgy"
+    }
+  ],
+  "item_requires": [],
+  "unlocks": [
+    {
+      "item": "earth_physical_sciences:vacuum_frame"
+    }
+  ],
+  "literature": [
+    "notes"
+  ],
+  "teachers": [],
+  "fail_codes": [],
+  "name_key": "lore.earth_physical_sciences.ast.spacecraft_structures",
+  "desc_key": "lore.earth_physical_sciences.ast.spacecraft_structures.desc",
+  "research": {
+    "items": [
+      {
+        "ingredient": "earth_on_minecraft:titanium_alloy",
+        "count": 4
+      },
+      {
+        "ingredient": "earth_physical_sciences:carbon_composite",
+        "count": 2
+      },
+      {
+        "ingredient": "earth_on_minecraft:aluminium_alloy",
+        "count": 4
+      }
+    ],
+    "ticks": 6000
+  }
+}

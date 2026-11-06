@@ -1,0 +1,43 @@
+{
+  "discipline": "earth_lore:cmp",
+  "tier": 10,
+  "gate": "soft",
+  "requires": [
+    {
+      "all": "earth_physical_sciences:cmp/integrated_circuits"
+    },
+    {
+      "all": "earth_physical_sciences:phy/lasers"
+    }
+  ],
+  "item_requires": [],
+  "unlocks": [
+    {
+      "item": "earth_physical_sciences:photonic_core"
+    }
+  ],
+  "literature": [
+    "notes"
+  ],
+  "teachers": [],
+  "fail_codes": [],
+  "name_key": "lore.earth_physical_sciences.cmp.photonic_computing",
+  "desc_key": "lore.earth_physical_sciences.cmp.photonic_computing.desc",
+  "research": {
+    "items": [
+      {
+        "ingredient": "earth_physical_sciences:photonic_waveguide",
+        "count": 4
+      },
+      {
+        "ingredient": "earth_physical_sciences:laser_diode",
+        "count": 2
+      },
+      {
+        "ingredient": "earth_physical_sciences:integrated_circuit",
+        "count": 2
+      }
+    ],
+    "ticks": 16800
+  }
+}

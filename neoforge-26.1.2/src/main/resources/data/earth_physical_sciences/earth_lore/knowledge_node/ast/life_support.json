@@ -1,0 +1,55 @@
+{
+  "discipline": "earth_lore:ast",
+  "tier": 7,
+  "gate": "soft",
+  "requires": [
+    {
+      "all": "earth_physical_sciences:ast/spacecraft_structures"
+    },
+    {
+      "all": "earth_on_minecraft:che/electrochemistry"
+    },
+    {
+      "all": "earth_on_minecraft:med/first_aid"
+    }
+  ],
+  "item_requires": [],
+  "unlocks": [
+    {
+      "block": "earth_physical_sciences:life_support_unit"
+    },
+    {
+      "item": "earth_physical_sciences:life_support_unit"
+    },
+    {
+      "item": "earth_physical_sciences:space_helmet"
+    },
+    {
+      "item": "earth_physical_sciences:space_suit"
+    }
+  ],
+  "literature": [
+    "notes"
+  ],
+  "teachers": [],
+  "fail_codes": [],
+  "name_key": "lore.earth_physical_sciences.ast.life_support",
+  "desc_key": "lore.earth_physical_sciences.ast.life_support.desc",
+  "research": {
+    "items": [
+      {
+        "ingredient": "earth_physical_sciences:liquid_oxygen",
+        "count": 8
+      },
+      {
+        "ingredient": "earth_on_minecraft:activated_carbon",
+        "count": 4
+      },
+      {
+        "ingredient": "earth_on_minecraft:stainless_steel",
+        "count": 4
+      }
+    ],
+    "ticks": 9600
+  }
+}

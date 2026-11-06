@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SSS",
+    "YCY",
+    "SSS"
+  ],
+  "key": {
+    "S": "earth_on_minecraft:stainless_steel",
+    "Y": "earth_physical_sciences:superconductor_coil",
+    "C": "earth_on_minecraft:heavy_copper_power_cable"
+  },
+  "result": {
+    "id": "earth_physical_sciences:superconducting_cable",
+    "count": 8
+  }
+}

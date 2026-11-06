@@ -1,0 +1,39 @@
+{
+  "discipline": "earth_lore:phy",
+  "tier": 7,
+  "gate": "theory",
+  "requires": [
+    {
+      "all": "earth_physical_sciences:phy/electromagnetism"
+    },
+    {
+      "all": "earth_physical_sciences:phy/nuclear_physics"
+    }
+  ],
+  "item_requires": [],
+  "unlocks": [],
+  "literature": [
+    "notes"
+  ],
+  "teachers": [],
+  "fail_codes": [],
+  "name_key": "lore.earth_physical_sciences.phy.plasma_physics",
+  "desc_key": "lore.earth_physical_sciences.phy.plasma_physics.desc",
+  "research": {
+    "items": [
+      {
+        "ingredient": "earth_physical_sciences:electromagnet",
+        "count": 2
+      },
+      {
+        "ingredient": "earth_physical_sciences:deuterium",
+        "count": 2
+      },
+      {
+        "ingredient": "minecraft:redstone",
+        "count": 16
+      }
+    ],
+    "ticks": 9600
+  }
+}
