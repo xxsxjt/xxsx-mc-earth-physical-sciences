@@ -169,6 +169,14 @@ class PhysicalSciencesLoreIntegrationTest {
                 }
             }
         }
+
+        // MC 26.1.2 dimension_type schema regression guard
+        JsonObject dimType = JsonParser.parseString(Files.readString(
+                Path.of("src/main/resources/data/earth_physical_sciences/dimension_type/low_earth_orbit.json"),
+                StandardCharsets.UTF_8
+        )).getAsJsonObject();
+        assertTrue(dimType.has("has_ender_dragon_fight"), "MC 26.1.2 dimension_type requires has_ender_dragon_fight");
+        assertFalse(dimType.has("ultrawarm"), "Legacy 1.21 ultrawarm key must not appear in MC 26.1.2 dimension_type");
     }
 
     private static List<NodeDef> loadNodes(Path root, String ownerNamespace) throws IOException {
