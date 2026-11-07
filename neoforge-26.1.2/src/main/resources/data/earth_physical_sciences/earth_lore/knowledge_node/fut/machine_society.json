@@ -25,7 +25,7 @@
       "recipe": "earth_physical_sciences:android_assembly_bay"
     },
     {
-      "entity": "earth_physical_sciences:android_worker"
+      "ability": "earth_physical_sciences:android_worker"
     }
   ],
   "literature": [

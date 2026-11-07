@@ -38,7 +38,7 @@
       "recipe": "earth_physical_sciences:crew_capsule"
     },
     {
-      "entity": "earth_physical_sciences:launch_vehicle"
+      "ability": "earth_physical_sciences:launch_vehicle"
     }
   ],
   "literature": [
