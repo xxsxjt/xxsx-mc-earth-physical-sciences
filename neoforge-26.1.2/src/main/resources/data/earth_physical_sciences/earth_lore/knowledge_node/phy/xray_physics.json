@@ -36,11 +36,11 @@
   "research": {
     "items": [
       {
-        "ingredient": "earth_on_minecraft:lead",
+        "ingredient": "earth_core:lead",
         "count": 8
       },
       {
-        "ingredient": "earth_on_minecraft:tungsten",
+        "ingredient": "earth_core:tungsten",
         "count": 2
       },
       {

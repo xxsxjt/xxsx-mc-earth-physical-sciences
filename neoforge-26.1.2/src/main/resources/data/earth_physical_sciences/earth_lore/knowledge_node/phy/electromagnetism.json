@@ -7,12 +7,12 @@
       "all": "earth_physical_sciences:phy/classical_mechanics"
     },
     {
-      "all": "earth_on_minecraft:eng/electrical_basics"
+      "all": "earth_core:eng/electrical_basics"
     }
   ],
   "item_requires": [
     {
-      "made": "earth_on_minecraft:copper_power_cable"
+      "made": "earth_core:copper_power_cable"
     }
   ],
   "unlocks": [
@@ -36,7 +36,7 @@
   "research": {
     "items": [
       {
-        "ingredient": "earth_on_minecraft:refined_copper",
+        "ingredient": "earth_core:refined_copper",
         "count": 4
       },
       {

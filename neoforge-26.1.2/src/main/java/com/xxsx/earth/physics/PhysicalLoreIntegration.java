@@ -1,6 +1,6 @@
-package com.xxsx.earthphysicalsciences;
+package com.xxsx.earth.physics;
 
-import com.xxsx.earthlore.api.LoreApi;
+import com.xxsx.earth.lore.api.LoreApi;
 import net.minecraft.resources.Identifier;
 import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.world.entity.player.Player;

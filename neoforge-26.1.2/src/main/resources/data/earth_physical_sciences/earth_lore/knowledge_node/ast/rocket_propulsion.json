@@ -7,7 +7,7 @@
       "all": "earth_physical_sciences:ast/celestial_mechanics"
     },
     {
-      "all": "earth_on_minecraft:eng/internal_combustion"
+      "all": "earth_core:eng/internal_combustion"
     },
     {
       "all": "earth_physical_sciences:phy/cryogenics"
@@ -36,11 +36,11 @@
         "count": 4
       },
       {
-        "ingredient": "earth_on_minecraft:inconel",
+        "ingredient": "earth_core:inconel",
         "count": 2
       },
       {
-        "ingredient": "earth_on_minecraft:steel",
+        "ingredient": "earth_core:steel",
         "count": 8
       }
     ],

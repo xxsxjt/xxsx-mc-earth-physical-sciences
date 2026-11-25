@@ -9,8 +9,8 @@
       "CAC"
     ],
     "key": {
-      "C": "earth_on_minecraft:refined_copper",
-      "A": "earth_on_minecraft:aluminium",
+      "C": "earth_core:refined_copper",
+      "A": "earth_core:aluminium",
       "S": "earth_physical_sciences:stellar_alloy"
     },
     "result": {

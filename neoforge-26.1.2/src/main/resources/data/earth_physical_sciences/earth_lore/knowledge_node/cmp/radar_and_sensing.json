@@ -7,7 +7,7 @@
       "all": "earth_physical_sciences:cmp/radio_communication"
     },
     {
-      "all": "earth_on_minecraft:eng/control_basics"
+      "all": "earth_core:eng/control_basics"
     }
   ],
   "item_requires": [],
@@ -33,11 +33,11 @@
         "count": 8
       },
       {
-        "ingredient": "earth_on_minecraft:industrial_sensor",
+        "ingredient": "earth_core:industrial_sensor",
         "count": 2
       },
       {
-        "ingredient": "earth_on_minecraft:steel",
+        "ingredient": "earth_core:steel",
         "count": 4
       }
     ],

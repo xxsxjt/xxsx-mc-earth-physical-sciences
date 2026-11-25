@@ -7,10 +7,10 @@
       "all": "earth_physical_sciences:phy/electromagnetism"
     },
     {
-      "all": "earth_on_minecraft:eng/energy_storage"
+      "all": "earth_core:eng/energy_storage"
     },
     {
-      "all": "earth_on_minecraft:che/electrochemistry"
+      "all": "earth_core:che/electrochemistry"
     }
   ],
   "item_requires": [],
@@ -29,15 +29,15 @@
   "research": {
     "items": [
       {
-        "ingredient": "earth_on_minecraft:battery_box",
+        "ingredient": "earth_core:battery_box",
         "count": 1
       },
       {
-        "ingredient": "earth_on_minecraft:nickel",
+        "ingredient": "earth_core:nickel",
         "count": 4
       },
       {
-        "ingredient": "earth_on_minecraft:cobalt",
+        "ingredient": "earth_core:cobalt",
         "count": 2
       }
     ],

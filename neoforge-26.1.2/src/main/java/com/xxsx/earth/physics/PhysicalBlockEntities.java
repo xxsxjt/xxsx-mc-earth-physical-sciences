@@ -1,8 +1,8 @@
-package com.xxsx.earthphysicalsciences;
+package com.xxsx.earth.physics;
 
-import com.xxsx.earthlore.api.LoreMachines;
-import com.xxsx.earthonminecraft.ElectricEnergyStorage;
-import com.xxsx.earthonminecraft.EnergyNetwork;
+import com.xxsx.earth.lore.api.LoreMachines;
+import com.xxsx.earth.core.ElectricEnergyStorage;
+import com.xxsx.earth.core.EnergyNetwork;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
 import net.minecraft.core.component.DataComponentType;
@@ -288,8 +288,8 @@ public final class PhysicalBlockEntities {
             ItemStack in0 = items.getItem(0);
             if (in0.isEmpty()) return;
             Identifier inId = BuiltInRegistries.ITEM.getKey(in0.getItem());
-            Identifier polyId = Identifier.fromNamespaceAndPath("earth_on_minecraft", "polysilicon");
-            Identifier hpsId = Identifier.fromNamespaceAndPath("earth_on_minecraft", "high_purity_silicon");
+            Identifier polyId = Identifier.fromNamespaceAndPath("earth_core", "polysilicon");
+            Identifier hpsId = Identifier.fromNamespaceAndPath("earth_core", "high_purity_silicon");
             if (inId.equals(polyId) && in0.getCount() >= 2) {
                 if (!consumeEnergy(400)) {
                     fault = "no_power";
@@ -333,7 +333,7 @@ public final class PhysicalBlockEntities {
             if (sample.is(EarthPhysicalSciences.NANO_BLACKLIST)) return "blacklisted";
             Identifier id = BuiltInRegistries.ITEM.getKey(sample.getItem());
             if ("earth_lore".equals(id.getNamespace())) return "blacklisted";
-            Identifier pharmaId = Identifier.fromNamespaceAndPath("earth_on_minecraft", "pharmaceutical");
+            Identifier pharmaId = Identifier.fromNamespaceAndPath("earth_core", "pharmaceutical");
             DataComponentType<?> pharmaType = BuiltInRegistries.DATA_COMPONENT_TYPE.getValue(pharmaId);
             if (pharmaType != null && sample.get(pharmaType) != null) return "blacklisted";
             Identifier loreTextId = Identifier.fromNamespaceAndPath("earth_lore", "lore_text");

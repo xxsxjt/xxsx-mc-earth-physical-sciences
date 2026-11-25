@@ -10,7 +10,7 @@
     ],
     "key": {
       "M": "earth_physical_sciences:metamaterial",
-      "S": "earth_on_minecraft:steel",
+      "S": "earth_core:steel",
       "R": "earth_physical_sciences:radio_transceiver"
     },
     "result": {

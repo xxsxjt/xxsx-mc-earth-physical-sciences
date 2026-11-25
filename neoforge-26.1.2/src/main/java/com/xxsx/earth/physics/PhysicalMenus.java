@@ -1,4 +1,4 @@
-package com.xxsx.earthphysicalsciences;
+package com.xxsx.earth.physics;
 
 import net.minecraft.world.Container;
 import net.minecraft.world.SimpleContainer;

@@ -1,6 +1,6 @@
-package com.xxsx.earthphysicalsciences.mixin;
+package com.xxsx.earth.physics.mixin;
 
-import com.xxsx.earthphysicalsciences.PhysicalEvents;
+import com.xxsx.earth.physics.PhysicalEvents;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.world.entity.npc.villager.Villager;
 import org.spongepowered.asm.mixin.Mixin;

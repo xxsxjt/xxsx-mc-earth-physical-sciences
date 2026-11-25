@@ -6,11 +6,11 @@
     "ALA"
   ],
   "key": {
-    "A": "earth_on_minecraft:aluminium",
-    "L": "earth_on_minecraft:lithium_salt",
-    "N": "earth_on_minecraft:nickel",
-    "K": "earth_on_minecraft:coke",
-    "O": "earth_on_minecraft:cobalt"
+    "A": "earth_core:aluminium",
+    "L": "earth_core:lithium_salt",
+    "N": "earth_core:nickel",
+    "K": "earth_core:coke",
+    "O": "earth_core:cobalt"
   },
   "result": {
     "id": "earth_physical_sciences:high_density_cell",

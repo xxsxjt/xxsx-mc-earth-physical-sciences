@@ -6,11 +6,11 @@
     "SCS"
   ],
   "key": {
-    "L": "earth_on_minecraft:lead",
+    "L": "earth_core:lead",
     "T": "earth_physical_sciences:xray_tube",
     "G": "earth_physical_sciences:ground_lens",
-    "S": "earth_on_minecraft:steel",
-    "C": "earth_on_minecraft:copper_power_cable"
+    "S": "earth_core:steel",
+    "C": "earth_core:copper_power_cable"
   },
   "result": {
     "id": "earth_physical_sciences:xray_diffractometer",

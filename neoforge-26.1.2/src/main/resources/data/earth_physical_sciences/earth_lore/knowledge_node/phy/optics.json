@@ -7,12 +7,12 @@
       "all": "earth_physical_sciences:phy/classical_mechanics"
     },
     {
-      "all": "earth_on_minecraft:mat/optical_glass"
+      "all": "earth_core:mat/optical_glass"
     }
   ],
   "item_requires": [
     {
-      "made": "earth_on_minecraft:optical_glass"
+      "made": "earth_core:optical_glass"
     }
   ],
   "unlocks": [
@@ -36,7 +36,7 @@
   "research": {
     "items": [
       {
-        "ingredient": "earth_on_minecraft:optical_glass",
+        "ingredient": "earth_core:optical_glass",
         "count": 4
       },
       {
@@ -44,7 +44,7 @@
         "count": 4
       },
       {
-        "ingredient": "earth_on_minecraft:silver",
+        "ingredient": "earth_core:silver",
         "count": 1
       }
     ],

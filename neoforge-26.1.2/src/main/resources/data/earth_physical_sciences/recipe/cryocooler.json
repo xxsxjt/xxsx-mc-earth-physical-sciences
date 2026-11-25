@@ -6,8 +6,8 @@
     "SSS"
   ],
   "key": {
-    "S": "earth_on_minecraft:stainless_steel",
-    "C": "earth_on_minecraft:copper_power_cable",
+    "S": "earth_core:stainless_steel",
+    "C": "earth_core:copper_power_cable",
     "P": "minecraft:piston",
     "D": "earth_physical_sciences:dewar_flask"
   },

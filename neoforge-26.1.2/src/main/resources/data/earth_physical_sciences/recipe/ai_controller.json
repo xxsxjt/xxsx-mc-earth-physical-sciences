@@ -9,8 +9,8 @@
       "PBP"
     ],
     "key": {
-      "P": "earth_on_minecraft:plc_controller",
-      "B": "earth_on_minecraft:automation_bus",
+      "P": "earth_core:plc_controller",
+      "B": "earth_core:automation_bus",
       "Q": "earth_physical_sciences:quantum_core"
     },
     "result": {

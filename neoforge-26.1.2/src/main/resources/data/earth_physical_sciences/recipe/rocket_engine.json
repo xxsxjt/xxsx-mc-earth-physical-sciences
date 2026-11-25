@@ -6,10 +6,10 @@
     "T T"
   ],
   "key": {
-    "I": "earth_on_minecraft:inconel",
+    "I": "earth_core:inconel",
     "P": "minecraft:piston",
-    "C": "earth_on_minecraft:refined_copper",
-    "T": "earth_on_minecraft:titanium_alloy"
+    "C": "earth_core:refined_copper",
+    "T": "earth_core:titanium_alloy"
   },
   "result": {
     "id": "earth_physical_sciences:rocket_engine",

@@ -6,9 +6,9 @@
     "SLS"
   ],
   "key": {
-    "B": "earth_on_minecraft:brass",
+    "B": "earth_core:brass",
     "M": "earth_physical_sciences:ground_lens",
-    "S": "earth_on_minecraft:steel",
+    "S": "earth_core:steel",
     "L": "earth_physical_sciences:ground_lens"
   },
   "result": {

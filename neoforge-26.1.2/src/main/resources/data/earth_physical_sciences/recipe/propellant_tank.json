@@ -6,8 +6,8 @@
     "AMA"
   ],
   "key": {
-    "A": "earth_on_minecraft:aluminium_alloy",
-    "M": "earth_on_minecraft:mineral_wool"
+    "A": "earth_core:aluminium_alloy",
+    "M": "earth_core:mineral_wool"
   },
   "result": {
     "id": "earth_physical_sciences:propellant_tank",

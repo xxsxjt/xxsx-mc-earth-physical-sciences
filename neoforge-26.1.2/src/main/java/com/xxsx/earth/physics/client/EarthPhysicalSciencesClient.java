@@ -1,7 +1,7 @@
-package com.xxsx.earthphysicalsciences.client;
+package com.xxsx.earth.physics.client;
 
-import com.xxsx.earthphysicalsciences.EarthPhysicalSciences;
-import com.xxsx.earthphysicalsciences.PhysicalMenus;
+import com.xxsx.earth.physics.EarthPhysicalSciences;
+import com.xxsx.earth.physics.PhysicalMenus;
 import net.minecraft.client.gui.GuiGraphicsExtractor;
 import net.minecraft.client.gui.screens.inventory.AbstractContainerScreen;
 import net.minecraft.client.renderer.entity.NoopRenderer;

@@ -8,8 +8,8 @@
   "key": {
     "G": "minecraft:glass",
     "P": "earth_physical_sciences:solar_cell",
-    "A": "earth_on_minecraft:aluminium",
-    "C": "earth_on_minecraft:copper_power_cable"
+    "A": "earth_core:aluminium",
+    "C": "earth_core:copper_power_cable"
   },
   "result": {
     "id": "earth_physical_sciences:photovoltaic_panel",

@@ -1,4 +1,4 @@
-package com.xxsx.earthphysicalsciences;
+package com.xxsx.earth.physics;
 
 import net.minecraft.network.syncher.SynchedEntityData;
 import net.minecraft.server.level.ServerLevel;

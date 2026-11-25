@@ -10,8 +10,8 @@
     ],
     "key": {
       "Y": "earth_physical_sciences:superconductor_coil",
-      "C": "earth_on_minecraft:heavy_copper_power_cable",
-      "T": "earth_on_minecraft:transformer_core",
+      "C": "earth_core:heavy_copper_power_cable",
+      "T": "earth_core:transformer_core",
       "M": "earth_physical_sciences:mainframe"
     },
     "result": {

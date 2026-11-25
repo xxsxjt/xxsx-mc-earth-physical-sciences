@@ -6,11 +6,11 @@
     "SCS"
   ],
   "key": {
-    "S": "earth_on_minecraft:stainless_steel",
+    "S": "earth_core:stainless_steel",
     "G": "minecraft:glass",
     "P": "minecraft:piston",
-    "A": "earth_on_minecraft:activated_carbon",
-    "C": "earth_on_minecraft:copper_power_cable"
+    "A": "earth_core:activated_carbon",
+    "C": "earth_core:copper_power_cable"
   },
   "result": {
     "id": "earth_physical_sciences:life_support_unit",

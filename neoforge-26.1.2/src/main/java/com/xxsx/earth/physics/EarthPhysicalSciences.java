@@ -1,4 +1,4 @@
-package com.xxsx.earthphysicalsciences;
+package com.xxsx.earth.physics;
 
 import com.google.common.collect.ImmutableSet;
 import com.mojang.serialization.Codec;
@@ -284,7 +284,7 @@ public final class EarthPhysicalSciences {
 
         PhysicalEvents.register();
         if (FMLEnvironment.getDist() == Dist.CLIENT) {
-            com.xxsx.earthphysicalsciences.client.EarthPhysicalSciencesClient.init(modBus);
+            com.xxsx.earth.physics.client.EarthPhysicalSciencesClient.init(modBus);
         }
     }
 

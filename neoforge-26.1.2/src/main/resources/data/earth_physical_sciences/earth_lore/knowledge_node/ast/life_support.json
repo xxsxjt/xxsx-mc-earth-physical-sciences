@@ -7,10 +7,10 @@
       "all": "earth_physical_sciences:ast/spacecraft_structures"
     },
     {
-      "all": "earth_on_minecraft:che/electrochemistry"
+      "all": "earth_core:che/electrochemistry"
     },
     {
-      "all": "earth_on_minecraft:med/first_aid"
+      "all": "earth_core:med/first_aid"
     }
   ],
   "item_requires": [],
@@ -42,11 +42,11 @@
         "count": 8
       },
       {
-        "ingredient": "earth_on_minecraft:activated_carbon",
+        "ingredient": "earth_core:activated_carbon",
         "count": 4
       },
       {
-        "ingredient": "earth_on_minecraft:stainless_steel",
+        "ingredient": "earth_core:stainless_steel",
         "count": 4
       }
     ],

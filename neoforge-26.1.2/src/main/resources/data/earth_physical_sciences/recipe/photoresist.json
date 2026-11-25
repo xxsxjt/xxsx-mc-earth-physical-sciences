@@ -1,8 +1,8 @@
 {
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
-    "earth_on_minecraft:photoresist_precursor",
-    "earth_on_minecraft:acetone"
+    "earth_core:photoresist_precursor",
+    "earth_core:acetone"
   ],
   "result": {
     "id": "earth_physical_sciences:photoresist",

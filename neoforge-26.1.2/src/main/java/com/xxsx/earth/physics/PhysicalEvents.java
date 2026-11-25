@@ -1,7 +1,7 @@
-package com.xxsx.earthphysicalsciences;
+package com.xxsx.earth.physics;
 
-import com.xxsx.earthlore.data.LoreText;
-import com.xxsx.earthlore.registry.LoreContent;
+import com.xxsx.earth.lore.data.LoreText;
+import com.xxsx.earth.lore.registry.LoreContent;
 import java.util.List;
 import java.util.Optional;
 import net.minecraft.ChatFormatting;

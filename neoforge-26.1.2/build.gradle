@@ -4,7 +4,7 @@ plugins {
 }
 
 version = '0.1.0'
-group = 'com.xxsx.earthphysicalsciences'
+group = 'com.xxsx.earth.physics'
 
 repositories {
     mavenLocal()
@@ -38,7 +38,7 @@ neoForge {
 
 dependencies {
     implementation files('../../earth_lore/neoforge-26.1.2/build/libs/earth-lore-neoforge-26.1.2-0.1.0.jar')
-    implementation files('../../earth_on_minecraft/neoforge-26.2/build/libs/earth-on-minecraft-neoforge-26.1.2-0.2.0.jar')
+    implementation files('../../earth_core/neoforge-26.1.2/build/libs/earth-core-neoforge-26.1.2-0.2.0.jar')
     testImplementation 'org.junit.jupiter:junit-jupiter:5.10.2'
     testRuntimeOnly 'org.junit.platform:junit-platform-launcher:1.10.2'
 }

@@ -1,7 +1,7 @@
 {
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
-    "earth_on_minecraft:silver"
+    "earth_core:silver"
   ],
   "result": {
     "id": "earth_physical_sciences:silver_sheath",

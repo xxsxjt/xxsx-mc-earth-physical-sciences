@@ -23,15 +23,15 @@
   "research": {
     "items": [
       {
-        "ingredient": "earth_on_minecraft:gem_cut",
+        "ingredient": "earth_core:gem_cut",
         "count": 2
       },
       {
-        "ingredient": "earth_on_minecraft:refined_copper",
+        "ingredient": "earth_core:refined_copper",
         "count": 4
       },
       {
-        "ingredient": "earth_on_minecraft:salt",
+        "ingredient": "earth_core:salt",
         "count": 4
       }
     ],

@@ -34,11 +34,11 @@
         "count": 16
       },
       {
-        "ingredient": "earth_on_minecraft:optical_glass",
+        "ingredient": "earth_core:optical_glass",
         "count": 4
       },
       {
-        "ingredient": "earth_on_minecraft:silver",
+        "ingredient": "earth_core:silver",
         "count": 4
       }
     ],

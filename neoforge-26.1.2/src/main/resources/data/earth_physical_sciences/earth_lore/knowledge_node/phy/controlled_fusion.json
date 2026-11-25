@@ -10,7 +10,7 @@
       "all": "earth_physical_sciences:phy/plasma_physics"
     },
     {
-      "all": "earth_on_minecraft:eng/nuclear_engineering"
+      "all": "earth_core:eng/nuclear_engineering"
     }
   ],
   "item_requires": [],

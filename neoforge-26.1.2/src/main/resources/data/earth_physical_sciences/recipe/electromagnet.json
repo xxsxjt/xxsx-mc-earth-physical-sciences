@@ -6,7 +6,7 @@
     "CCC"
   ],
   "key": {
-    "C": "earth_on_minecraft:refined_copper",
+    "C": "earth_core:refined_copper",
     "I": "minecraft:iron_block"
   },
   "result": {

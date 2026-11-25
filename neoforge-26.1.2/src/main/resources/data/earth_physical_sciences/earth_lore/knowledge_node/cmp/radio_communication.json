@@ -39,11 +39,11 @@
         "count": 4
       },
       {
-        "ingredient": "earth_on_minecraft:copper_power_cable",
+        "ingredient": "earth_core:copper_power_cable",
         "count": 8
       },
       {
-        "ingredient": "earth_on_minecraft:refined_copper",
+        "ingredient": "earth_core:refined_copper",
         "count": 4
       }
     ],
