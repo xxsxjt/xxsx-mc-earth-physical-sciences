@@ -1,4 +1,4 @@
-package com.xxsx.earthphysicalsciences;
+package com.xxsx.earth.physics;
 
 import java.util.List;
 import java.util.Locale;

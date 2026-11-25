@@ -4,5 +4,5 @@ Minecraft 26.1.2 (NeoForge) 地球系列学科扩展：物理学（PHY）、电�
 
 - Mod ID: `earth_physical_sciences`
 - 版本: `0.1.0`
-- 强依赖: `earth_lore` (`[0.1.0,)`), `earth_on_minecraft` (`[0.2.0,)`)
+- 强依赖: `earth_lore` (`[0.1.0,)`), `earth_core` (`[0.2.0,)`)
 

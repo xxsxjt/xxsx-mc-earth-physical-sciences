@@ -7,7 +7,7 @@
       "all": "earth_physical_sciences:phy/vacuum_technology"
     },
     {
-      "all": "earth_on_minecraft:eng/thermodynamics"
+      "all": "earth_core:eng/thermodynamics"
     }
   ],
   "item_requires": [],
@@ -32,11 +32,11 @@
   "research": {
     "items": [
       {
-        "ingredient": "earth_on_minecraft:stainless_steel",
+        "ingredient": "earth_core:stainless_steel",
         "count": 4
       },
       {
-        "ingredient": "earth_on_minecraft:copper_power_cable",
+        "ingredient": "earth_core:copper_power_cable",
         "count": 4
       },
       {

@@ -7,7 +7,7 @@
       "all": "earth_physical_sciences:phy/physics_basics"
     },
     {
-      "all": "earth_on_minecraft:eng/mechanics"
+      "all": "earth_core:eng/mechanics"
     }
   ],
   "item_requires": [],

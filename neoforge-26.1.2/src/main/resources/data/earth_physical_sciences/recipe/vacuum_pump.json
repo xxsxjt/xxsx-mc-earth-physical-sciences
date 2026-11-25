@@ -6,10 +6,10 @@
     "SCS"
   ],
   "key": {
-    "S": "earth_on_minecraft:steel",
+    "S": "earth_core:steel",
     "P": "minecraft:piston",
     "G": "minecraft:glass",
-    "C": "earth_on_minecraft:copper_power_cable"
+    "C": "earth_core:copper_power_cable"
   },
   "result": {
     "id": "earth_physical_sciences:vacuum_pump",

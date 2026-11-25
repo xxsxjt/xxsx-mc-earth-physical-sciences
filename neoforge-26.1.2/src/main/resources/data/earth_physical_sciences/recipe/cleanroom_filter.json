@@ -6,8 +6,8 @@
     "SMS"
   ],
   "key": {
-    "S": "earth_on_minecraft:steel",
-    "M": "earth_on_minecraft:mineral_wool",
+    "S": "earth_core:steel",
+    "M": "earth_core:mineral_wool",
     "P": "minecraft:piston"
   },
   "result": {

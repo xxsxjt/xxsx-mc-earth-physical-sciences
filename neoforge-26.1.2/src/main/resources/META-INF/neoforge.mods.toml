@@ -5,7 +5,7 @@ license="All Rights Reserved"
 [[mods]]
 modId="earth_physical_sciences"
 version="0.1.0"
-displayName="Earth: Physical Sciences"
+displayName="地球：物理科学 (Earth: Physical Sciences)"
 authors="xxsx"
 description='''
 Physics, electronics & computing, astronomy & astronautics, and far-future axioms expansion for Earth on Minecraft.
@@ -36,7 +36,7 @@ config="earth_physical_sciences.mixins.json"
     side="BOTH"
 
 [[dependencies.earth_physical_sciences]]
-    modId="earth_on_minecraft"
+    modId="earth_core"
     type="required"
     versionRange="[0.2.0,)"
     ordering="AFTER"

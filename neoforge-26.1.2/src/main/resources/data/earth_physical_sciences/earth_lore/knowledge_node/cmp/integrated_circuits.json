@@ -41,11 +41,11 @@
   "research": {
     "items": [
       {
-        "ingredient": "earth_on_minecraft:silicon_wafer",
+        "ingredient": "earth_core:silicon_wafer",
         "count": 4
       },
       {
-        "ingredient": "earth_on_minecraft:photoresist_precursor",
+        "ingredient": "earth_core:photoresist_precursor",
         "count": 2
       },
       {

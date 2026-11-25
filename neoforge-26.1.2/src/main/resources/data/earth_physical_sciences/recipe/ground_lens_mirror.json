@@ -1,8 +1,8 @@
 {
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
-    "earth_on_minecraft:optical_glass",
-    "earth_on_minecraft:silver"
+    "earth_core:optical_glass",
+    "earth_core:silver"
   ],
   "result": {
     "id": "earth_physical_sciences:ground_lens",

@@ -9,9 +9,9 @@
       "CSC"
     ],
     "key": {
-      "C": "earth_on_minecraft:concrete",
-      "S": "earth_on_minecraft:steel",
-      "P": "earth_on_minecraft:plc_controller"
+      "C": "earth_core:concrete",
+      "S": "earth_core:steel",
+      "P": "earth_core:plc_controller"
     },
     "result": {
       "id": "earth_physical_sciences:launch_pad",

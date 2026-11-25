@@ -9,8 +9,8 @@
       "SLS"
     ],
     "key": {
-      "S": "earth_on_minecraft:stainless_steel",
-      "L": "earth_on_minecraft:lead"
+      "S": "earth_core:stainless_steel",
+      "L": "earth_core:lead"
     },
     "result": {
       "id": "earth_physical_sciences:plasma_containment",

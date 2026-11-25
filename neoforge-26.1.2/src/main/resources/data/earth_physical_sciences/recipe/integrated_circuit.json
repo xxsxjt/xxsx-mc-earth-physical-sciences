@@ -3,8 +3,8 @@
   "ingredients": [
     "earth_physical_sciences:die",
     "earth_physical_sciences:die",
-    "earth_on_minecraft:ceramic_substrate",
-    "earth_on_minecraft:gold"
+    "earth_core:ceramic_substrate",
+    "earth_core:gold"
   ],
   "result": {
     "id": "earth_physical_sciences:integrated_circuit",

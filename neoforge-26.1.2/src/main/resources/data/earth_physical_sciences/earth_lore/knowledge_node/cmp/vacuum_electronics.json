@@ -34,11 +34,11 @@
         "count": 8
       },
       {
-        "ingredient": "earth_on_minecraft:tungsten",
+        "ingredient": "earth_core:tungsten",
         "count": 2
       },
       {
-        "ingredient": "earth_on_minecraft:nickel",
+        "ingredient": "earth_core:nickel",
         "count": 2
       }
     ],

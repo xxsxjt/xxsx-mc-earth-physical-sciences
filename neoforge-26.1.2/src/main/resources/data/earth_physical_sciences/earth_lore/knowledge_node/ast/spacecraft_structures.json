@@ -10,7 +10,7 @@
       "all": "earth_physical_sciences:phy/vacuum_technology"
     },
     {
-      "all": "earth_on_minecraft:mat/electrometallurgy"
+      "all": "earth_core:mat/electrometallurgy"
     }
   ],
   "item_requires": [],
@@ -29,7 +29,7 @@
   "research": {
     "items": [
       {
-        "ingredient": "earth_on_minecraft:titanium_alloy",
+        "ingredient": "earth_core:titanium_alloy",
         "count": 4
       },
       {
@@ -37,7 +37,7 @@
         "count": 2
       },
       {
-        "ingredient": "earth_on_minecraft:aluminium_alloy",
+        "ingredient": "earth_core:aluminium_alloy",
         "count": 4
       }
     ],

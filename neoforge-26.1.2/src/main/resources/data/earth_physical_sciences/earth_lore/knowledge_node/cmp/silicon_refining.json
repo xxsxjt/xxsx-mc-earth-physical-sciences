@@ -7,16 +7,16 @@
       "all": "earth_physical_sciences:cmp/transistors"
     },
     {
-      "all": "earth_on_minecraft:che/analytical_chemistry"
+      "all": "earth_core:che/analytical_chemistry"
     },
     {
-      "all": "earth_on_minecraft:mat/electrometallurgy"
+      "all": "earth_core:mat/electrometallurgy"
     }
   ],
   "item_requires": [],
   "unlocks": [
     {
-      "item": "earth_on_minecraft:high_purity_silicon"
+      "item": "earth_core:high_purity_silicon"
     },
     {
       "block": "earth_physical_sciences:zone_refiner"
@@ -35,15 +35,15 @@
   "research": {
     "items": [
       {
-        "ingredient": "earth_on_minecraft:polysilicon",
+        "ingredient": "earth_core:polysilicon",
         "count": 4
       },
       {
-        "ingredient": "earth_on_minecraft:hydrochloric_acid",
+        "ingredient": "earth_core:hydrochloric_acid",
         "count": 4
       },
       {
-        "ingredient": "earth_on_minecraft:gem_dust",
+        "ingredient": "earth_core:gem_dust",
         "count": 2
       }
     ],

@@ -6,11 +6,11 @@
     "SSS"
   ],
   "key": {
-    "C": "earth_on_minecraft:copper_power_cable",
+    "C": "earth_core:copper_power_cable",
     "A": "minecraft:lightning_rod",
     "V": "earth_physical_sciences:vacuum_tube",
     "R": "minecraft:redstone",
-    "S": "earth_on_minecraft:steel"
+    "S": "earth_core:steel"
   },
   "result": {
     "id": "earth_physical_sciences:radio_transceiver",

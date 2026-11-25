@@ -7,7 +7,7 @@
       "all": "earth_physical_sciences:phy/quantum_mechanics"
     },
     {
-      "all": "earth_on_minecraft:che/radiochemistry"
+      "all": "earth_core:che/radiochemistry"
     }
   ],
   "item_requires": [],
@@ -35,11 +35,11 @@
   "research": {
     "items": [
       {
-        "ingredient": "earth_on_minecraft:uraninite_ore",
+        "ingredient": "earth_core:uraninite_ore",
         "count": 2
       },
       {
-        "ingredient": "earth_on_minecraft:lead",
+        "ingredient": "earth_core:lead",
         "count": 8
       },
       {

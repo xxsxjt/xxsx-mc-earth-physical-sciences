@@ -10,7 +10,7 @@
     ],
     "key": {
       "Y": "earth_physical_sciences:superconductor_coil",
-      "S": "earth_on_minecraft:stainless_steel",
+      "S": "earth_core:stainless_steel",
       "V": "earth_physical_sciences:vacuum_pump"
     },
     "result": {

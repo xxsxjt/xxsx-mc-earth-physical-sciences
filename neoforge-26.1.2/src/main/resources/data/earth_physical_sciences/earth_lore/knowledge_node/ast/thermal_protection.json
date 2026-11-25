@@ -4,10 +4,10 @@
   "gate": "soft",
   "requires": [
     {
-      "all": "earth_on_minecraft:mat/alloy_steels"
+      "all": "earth_core:mat/alloy_steels"
     },
     {
-      "all": "earth_on_minecraft:mat/ceramics"
+      "all": "earth_core:mat/ceramics"
     },
     {
       "all": "earth_physical_sciences:phy/vacuum_technology"
@@ -29,7 +29,7 @@
   "research": {
     "items": [
       {
-        "ingredient": "earth_on_minecraft:ceramic_substrate",
+        "ingredient": "earth_core:ceramic_substrate",
         "count": 4
       },
       {
@@ -37,7 +37,7 @@
         "count": 2
       },
       {
-        "ingredient": "earth_on_minecraft:mineral_wool",
+        "ingredient": "earth_core:mineral_wool",
         "count": 4
       }
     ],

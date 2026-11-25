@@ -1,4 +1,4 @@
-package com.xxsx.earthphysicalsciences;
+package com.xxsx.earth.physics;
 
 import com.mojang.serialization.Codec;
 import com.mojang.serialization.codecs.RecordCodecBuilder;

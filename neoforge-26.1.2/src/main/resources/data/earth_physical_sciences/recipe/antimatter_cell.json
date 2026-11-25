@@ -9,7 +9,7 @@
       "SHS"
     ],
     "key": {
-      "S": "earth_on_minecraft:stainless_steel",
+      "S": "earth_core:stainless_steel",
       "H": "earth_physical_sciences:high_density_cell",
       "D": "earth_physical_sciences:dewar_flask"
     },

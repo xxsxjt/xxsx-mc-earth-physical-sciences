@@ -1,14 +1,14 @@
-package com.xxsx.earthphysicalsciences;
+package com.xxsx.earth.physics;
 
 import com.google.gson.JsonArray;
 import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
-import com.xxsx.earthlore.core.Gate;
-import com.xxsx.earthlore.core.GraphValidator;
-import com.xxsx.earthlore.core.NodeDef;
-import com.xxsx.earthlore.core.Prereq;
-import com.xxsx.earthlore.core.Reachability;
+import com.xxsx.earth.lore.core.Gate;
+import com.xxsx.earth.lore.core.GraphValidator;
+import com.xxsx.earth.lore.core.NodeDef;
+import com.xxsx.earth.lore.core.Prereq;
+import com.xxsx.earth.lore.core.Reachability;
 import org.junit.jupiter.api.Test;
 
 import java.io.IOException;
@@ -33,7 +33,7 @@ class PhysicalSciencesLoreIntegrationTest {
     );
 
     private static final GraphValidator.DependencyRule FULL_DEPS = (owner, other) ->
-            owner.equals(other) || "earth_lore".equals(other) || "earth_on_minecraft".equals(other)
+            owner.equals(other) || "earth_lore".equals(other) || "earth_core".equals(other)
                     || ("earth_life_sciences".equals(owner) && "earth_physical_sciences".equals(other));
 
     @Test
@@ -45,27 +45,27 @@ class PhysicalSciencesLoreIntegrationTest {
         assertEquals(62, physNodes.size(), "Expected 20 PHY + 16 CMP + 15 AST + 11 FUT = 62 nodes");
 
         List<NodeDef> eomNodes = loadNodes(
-                Path.of("../../earth_on_minecraft/neoforge-26.2/src/main/resources/data/earth_on_minecraft/earth_lore/knowledge_node"),
-                "earth_on_minecraft"
+                Path.of("../../earth_core/neoforge-26.1.2/src/main/resources/data/earth_core/earth_lore/knowledge_node"),
+                "earth_core"
         );
         List<NodeDef> lifeNodes = loadNodes(
                 Path.of("../../earth_life_sciences/neoforge-26.1.2/src/main/resources/data/earth_life_sciences/earth_lore/knowledge_node"),
                 "earth_life_sciences"
         );
         List<NodeDef> xuanNodes = loadNodes(
-                Path.of("../../xuanhuan_earth/neoforge-26.2/src/main/resources/data/xuanhuan_earth/earth_lore/knowledge_node"),
-                "xuanhuan_earth"
+                Path.of("../../earth_xuanxue/neoforge-26.1.2/src/main/resources/data/earth_xuanxue/earth_lore/knowledge_node"),
+                "earth_xuanxue"
         );
         List<NodeDef> fanNodes = loadNodes(
-                Path.of("../../fantasy_earth/neoforge-26.2/src/main/resources/data/fantasy_earth/earth_lore/knowledge_node"),
-                "fantasy_earth"
+                Path.of("../../earth_magic/neoforge-26.1.2/src/main/resources/data/earth_magic/earth_lore/knowledge_node"),
+                "earth_magic"
         );
         List<NodeDef> theoNodes = loadNodes(
                 Path.of("../../earth_theology/neoforge-26.1.2/src/main/resources/data/earth_theology/earth_lore/knowledge_node"),
                 "earth_theology"
         );
 
-        // 1. Minimal boot: earth_on_minecraft + earth_physical_sciences
+        // 1. Minimal boot: earth_core + earth_physical_sciences
         List<NodeDef> minimal = new ArrayList<>();
         minimal.addAll(eomNodes);
         minimal.addAll(physNodes);

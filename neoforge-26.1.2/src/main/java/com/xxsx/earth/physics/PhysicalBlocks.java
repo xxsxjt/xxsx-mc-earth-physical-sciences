@@ -1,6 +1,6 @@
-package com.xxsx.earthphysicalsciences;
+package com.xxsx.earth.physics;
 
-import com.xxsx.earthlore.api.LoreMachines;
+import com.xxsx.earth.lore.api.LoreMachines;
 import net.minecraft.core.BlockPos;
 import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.world.InteractionResult;

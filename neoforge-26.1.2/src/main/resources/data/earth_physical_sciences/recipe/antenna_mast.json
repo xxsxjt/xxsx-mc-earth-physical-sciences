@@ -6,8 +6,8 @@
     "S S"
   ],
   "key": {
-    "S": "earth_on_minecraft:steel",
-    "C": "earth_on_minecraft:refined_copper"
+    "S": "earth_core:steel",
+    "C": "earth_core:refined_copper"
   },
   "result": {
     "id": "earth_physical_sciences:antenna_mast",

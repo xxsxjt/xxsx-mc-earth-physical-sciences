@@ -7,10 +7,10 @@
       "all": "earth_physical_sciences:phy/classical_mechanics"
     },
     {
-      "all": "earth_on_minecraft:eng/thermodynamics"
+      "all": "earth_core:eng/thermodynamics"
     },
     {
-      "all": "earth_on_minecraft:mat/glassmaking"
+      "all": "earth_core:mat/glassmaking"
     }
   ],
   "item_requires": [],
@@ -42,7 +42,7 @@
         "count": 8
       },
       {
-        "ingredient": "earth_on_minecraft:steel",
+        "ingredient": "earth_core:steel",
         "count": 4
       },
       {

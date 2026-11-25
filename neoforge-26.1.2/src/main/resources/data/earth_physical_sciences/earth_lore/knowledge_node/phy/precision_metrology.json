@@ -7,7 +7,7 @@
       "all": "earth_physical_sciences:phy/quantum_mechanics"
     },
     {
-      "all": "earth_on_minecraft:eng/measurement"
+      "all": "earth_core:eng/measurement"
     }
   ],
   "item_requires": [],
@@ -33,7 +33,7 @@
         "count": 4
       },
       {
-        "ingredient": "earth_on_minecraft:gold",
+        "ingredient": "earth_core:gold",
         "count": 2
       },
       {

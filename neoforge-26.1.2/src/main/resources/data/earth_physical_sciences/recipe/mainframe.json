@@ -7,9 +7,9 @@
   ],
   "key": {
     "V": "earth_physical_sciences:vacuum_tube",
-    "P": "earth_on_minecraft:plc_controller",
-    "S": "earth_on_minecraft:steel",
-    "C": "earth_on_minecraft:copper_power_cable"
+    "P": "earth_core:plc_controller",
+    "S": "earth_core:steel",
+    "C": "earth_core:copper_power_cable"
   },
   "result": {
     "id": "earth_physical_sciences:mainframe",

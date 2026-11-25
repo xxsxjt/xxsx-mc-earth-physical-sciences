@@ -8,7 +8,7 @@
   "key": {
     "V": "earth_physical_sciences:vacuum_tube",
     "A": "earth_physical_sciences:argon",
-    "S": "earth_on_minecraft:steel",
+    "S": "earth_core:steel",
     "R": "minecraft:redstone"
   },
   "result": {

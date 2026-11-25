@@ -10,8 +10,8 @@
     ],
     "key": {
       "S": "earth_physical_sciences:stellar_alloy",
-      "R": "earth_on_minecraft:robotic_arm",
-      "A": "earth_on_minecraft:actuator_module",
+      "R": "earth_core:robotic_arm",
+      "A": "earth_core:actuator_module",
       "M": "earth_physical_sciences:mainframe",
       "C": "earth_physical_sciences:superconducting_cable"
     },

@@ -6,10 +6,10 @@
     "CBC"
   ],
   "key": {
-    "C": "earth_on_minecraft:copper_power_cable",
+    "C": "earth_core:copper_power_cable",
     "B": "earth_physical_sciences:circuit_board",
     "R": "minecraft:redstone",
-    "X": "earth_on_minecraft:redstone_io_gateway"
+    "X": "earth_core:redstone_io_gateway"
   },
   "result": {
     "id": "earth_physical_sciences:bus_bridge",

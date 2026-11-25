@@ -7,7 +7,7 @@
       "all": "earth_physical_sciences:cmp/software"
     },
     {
-      "all": "earth_on_minecraft:eng/control_basics"
+      "all": "earth_core:eng/control_basics"
     }
   ],
   "item_requires": [],
@@ -29,7 +29,7 @@
   "research": {
     "items": [
       {
-        "ingredient": "earth_on_minecraft:automation_bus",
+        "ingredient": "earth_core:automation_bus",
         "count": 2
       },
       {
@@ -37,7 +37,7 @@
         "count": 2
       },
       {
-        "ingredient": "earth_on_minecraft:redstone_io_gateway",
+        "ingredient": "earth_core:redstone_io_gateway",
         "count": 1
       }
     ],
